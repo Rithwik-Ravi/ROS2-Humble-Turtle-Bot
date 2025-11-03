@@ -20,20 +20,22 @@ def generate_launch_description():
             output='screen',
             parameters=[{
                 'robot_description': urdf_content,
-                'use_sim_time': True
+                'use_sim_time': True  # Keep this
             }]
         ),
         Node(
             package='rviz2',
             executable='rviz2',
             name='rviz2',
-            output='screen'
+            output='screen',
+            parameters=[{'use_sim_time': True}] # Add this
         ),
-# Gazebo launch configuration
+        # Gazebo launch configuration (Old "fast" way)
         ExecuteProcess(
             cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so'],
             output='screen'
         ),
+        # Robot Spawner
         Node(
             package='gazebo_ros',
             executable='spawn_entity.py',
@@ -41,7 +43,3 @@ def generate_launch_description():
             output='screen',
             arguments=["-topic", "/robot_description", "-entity", "dolly"])
     ])
-# This launch file starts the robot state publisher, joint state publisher GUI, and RViz for visualization.
-# Make sure the URDF file path is correct and the necessary packages are installed.
-# To run this launch file, use the command:
-# ros2 launch rover 1_rviz.launch.py
