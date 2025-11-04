@@ -7,16 +7,6 @@ It is set up to launch **rtabmap_ros** for 3D mapping and visualize the results 
 
 ---
 
-⚠️ **Current Status: Not Working**
-
-This project is in a **non-functional state**.  
-The Gazebo launch file (`2_gazebo.launch.py`) fails to spawn the robot.  
-It times out while waiting for the `/spawn_entity` service from Gazebo, which does not appear to be starting correctly.
-
-Further debugging is required to resolve this **Gazebo/ROS 2 integration issue**.
-
----
-
 ## 🛠️ Installation
 
 ### 1. Install ROS 2 Dependencies
