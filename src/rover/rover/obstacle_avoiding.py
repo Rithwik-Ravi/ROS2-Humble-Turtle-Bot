@@ -52,22 +52,22 @@ class ObstacleAvoidingBot(Node):
         ## setting the linear velocity to be fixed and robot will keep on moving
         self.velocity.linear.x=self.linear_vel
         ## cases to make the robot change its angular velocity
-        if(self.regions['left'] > 4  and self.regions['mid'] > 4   and self.regions['right'] > 4 ):
+        if(self.regions['left'] > 1.5  and self.regions['mid'] > 1.5   and self.regions['right'] > 1.5 ):
             self.velocity.angular.z=0.0 # condition in which area is total clear
             print("forward")
-        elif(self.regions['left'] > 4 and self.regions['mid'] > 4  and self.regions['right'] < 4 ):
-            self.velocity.angular.z=-1.57# object on right,taking  left 
+        elif(self.regions['left'] > 1.5 and self.regions['mid'] > 1.5  and self.regions['right'] < 1.5 ):
+            self.velocity.angular.z=-0.8# object on right,taking  left 
             self.velocity.linear.x=0.2 # if there is something on right, slow down
             print("right")
-        elif(self.regions['left'] < 4 and self.regions['mid'] > 4  and self.regions['right'] > 4 ):
-            self.velocity.angular.z=1.57 #object  on left, taking  right
+        elif(self.regions['left'] < 1.5 and self.regions['mid'] > 1.5  and self.regions['right'] > 1.5 ):
+            self.velocity.angular.z=0.8 #object  on left, taking  right
             self.velocity.linear.x=0.2 # if there is something on left, slow down
             print("left")          
-        elif(self.regions['left'] < 4 and self.regions['mid'] < 4  and self.regions['right'] < 4 ):
+        elif(self.regions['left'] < 1.5 and self.regions['mid'] < 1.5  and self.regions['right'] < 1.5 ):
             self.velocity.linear.x=0.0
-            self.velocity.angular.z=3.14# object ahead take full turn
+            self.velocity.angular.z=1.57# object ahead take full turn
             print("Full Turn")
-        elif(self.regions['back'] < 4 ):
+        elif(self.regions['back'] < 1.5 ):
             self.velocity.linear.x=0.0 # if there is something behind stop
         else:## lThis code is not completed ->  you have  to add more conditions  ot make it robust
             print("some other conditions are required to be programmed") 
