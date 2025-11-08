@@ -81,6 +81,18 @@ class ObstacleAvoidingBot(Node):
         # If no obstacles are detected, move straight. Otherwise, use calculated velocities.
         self.velocity.linear.x = linear_velocity if obstacle_detected else self.linear_vel
         self.velocity.angular.z = angular_velocity
+
+        # --- 4. Log the current action ---
+        if self.velocity.angular.z > 0.8:
+            self.get_logger().info("Turning LEFT sharply")
+        elif self.velocity.angular.z < -0.8:
+            self.get_logger().info("Turning RIGHT sharply")
+        elif self.velocity.angular.z > 0.2:
+            self.get_logger().info("Turning LEFT slightly")
+        elif self.velocity.angular.z < -0.2:
+            self.get_logger().info("Turning RIGHT slightly")
+        else:
+            self.get_logger().info("Moving FORWARD")
        
         ## lets publish the complete velocity
         self.publisher.publish(self.velocity)
