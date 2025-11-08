@@ -30,7 +30,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='aanimesh',
-    maintainer_email='aanimesh@todo.todo',
+    maintainer_email='aanimesd@todo.todo',
     description='TODO: Package description',
     license='Apache-2.0',
     tests_require=['pytest'],

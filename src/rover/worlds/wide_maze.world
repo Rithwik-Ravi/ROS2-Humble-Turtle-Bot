@@ -1,0 +1,256 @@
+<?xml version="1.0" ?>
+<!--
+  This is a 20x20m maze world for Gazebo,
+  based on the user-provided image/description.
+  FIXED: The spawn point at (0,0) is now clear.
+  FIXED: Added more walls to fill empty space.
+-->
+<sdf version="1.6">
+  <world name="description_maze_v2">
+
+    <!-- Physics Engine Configuration -->
+    <physics type="ode">
+      <max_step_size>0.004</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>250</real_time_update_rate>
+      <gravity>0 0 -9.8</gravity>
+    </physics>
+
+    <!-- Scene Lighting and Background -->
+    <scene>
+      <shadows>true</shadows>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.7 0.7 1</background>
+      <grid>false</grid>
+      <origin_visual>false</origin_visual>
+    </scene>
+
+    <!-- Main directional light (Sun) -->
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <!-- A simple grey ground plane -->
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <cast_shadows>false</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!--
+    ======================================
+    MAZE WALLS (Based on text description)
+    ======================================
+    -->
+    <model name="description_maze_walls">
+      <static>true</static>
+      <pose>0 0 0 0 0 0</pose>
+      
+      <!-- Gazebo Material for walls -->
+      <visual name="v_mat">
+        <geometry><box><size>0.1 0.1 0.1</size></box></geometry>
+        <pose>0 0 -100 0 0 0</pose> <!-- Hide this box -->
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Green</name>
+          </script>
+        </material>
+      </visual>
+
+      <!-- Outer Walls (20x20 meters) -->
+      <link name="wall_north">
+        <collision name="col_north"><geometry><box><size>20 0.2 1</size></box></geometry></collision>
+        <visual name="vis_north"><geometry><box><size>20 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>0 10 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_south">
+        <collision name="col_south"><geometry><box><size>20 0.2 1</size></box></geometry></collision>
+        <visual name="vis_south"><geometry><box><size>20 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>0 -10 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_east">
+        <collision name="col_east"><geometry><box><size>0.2 20 1</size></box></geometry></collision>
+        <visual name="vis_east"><geometry><box><size>0.2 20 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>10 0 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_west">
+        <collision name="col_west"><geometry><box><size>0.2 20 1</size></box></geometry></collision>
+        <visual name="vis_west"><geometry><box><size>0.2 20 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-10 0 0.5 0 0 0</pose>
+      </link>
+
+      <!-- Center T-shape (FIXED: Moved north to clear (0,0) spawn) -->
+      <link name="wall_T_v">
+        <collision name="col_T_v"><geometry><box><size>0.2 4 1</size></box></geometry></collision>
+        <visual name="vis_T_v"><geometry><box><size>0.2 4 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-3 3 0.5 0 0 0</pose> <!-- Was y=2 -->
+      </link>
+      <link name="wall_T_h">
+        <collision name="col_T_h"><geometry><box><size>4 0.2 1</size></box></geometry></collision>
+        <visual name="vis_T_h"><geometry><box><size>4 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-1 1 0.5 0 0 0</pose> <!-- Was y=0 -->
+      </link>
+
+      <!-- Top-Left Section -->
+      <link name="wall_L1_v">
+        <collision name="col_L1_v"><geometry><box><size>0.2 4 1</size></box></geometry></collision>
+        <visual name="vis_L1_v"><geometry><box><size>0.2 4 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-7 7 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_L1_h">
+        <collision name="col_L1_h"><geometry><box><size>2 0.2 1</size></box></geometry></collision>
+        <visual name="vis_L1_h"><geometry><box><size>2 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-6 5 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_TL_h">
+        <collision name="col_TL_h"><geometry><box><size>3 0.2 1</size></box></geometry></collision>
+        <visual name="vis_TL_h"><geometry><box><size>3 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-8.5 3 0.5 0 0 0</pose>
+      </link>
+
+      <!-- Top-Right Section -->
+      <link name="wall_TR_h1">
+        <collision name="col_TR_h1"><geometry><box><size>6 0.2 1</size></box></geometry></collision>
+        <visual name="vis_TR_h1"><geometry><box><size>6 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-1 8 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_U_v1">
+        <collision name="col_U_v1"><geometry><box><size>0.2 4 1</size></box></geometry></collision>
+        <visual name="vis_U_v1"><geometry><box><size>0.2 4 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>2 6 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_U_h">
+        <collision name="col_U_h"><geometry><box><size>4 0.2 1</size></box></geometry></collision>
+        <visual name="vis_U_h"><geometry><box><size>4 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>4 4 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_U_v2">
+        <collision name="col_U_v2"><geometry><box><size>0.2 4 1</size></box></geometry></collision>
+        <visual name="vis_U_v2"><geometry><box><size>0.2 4 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>6 6 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_TR_v">
+        <collision name="col_TR_v"><geometry><box><size>0.2 3 1</size></box></geometry></collision>
+        <visual name="vis_TR_v"><geometry><box><size>0.2 3 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>7 1.5 0.5 0 0 0</pose>
+      </link>
+
+      <!-- Bottom-Left Section -->
+      <link name="wall_L2_h">
+        <collision name="col_L2_h"><geometry><box><size>3 0.2 1</size></box></geometry></collision>
+        <visual name="vis_L2_h"><geometry><box><size>3 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-7.5 -4 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_L2_v">
+        <collision name="col_L2_v"><geometry><box><size>0.2 3 1</size></box></geometry></collision>
+        <visual name="vis_L2_v"><geometry><box><size>0.2 3 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-6 -5.5 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_BL_v">
+        <collision name="col_BL_v"><geometry><box><size>0.2 2 1</size></box></geometry></collision>
+        <visual name="vis_BL_v"><geometry><box><size>0.2 2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-8 -9 0.5 0 0 0</pose>
+      </link>
+
+      <!-- Bottom-Right Section -->
+      <link name="wall_BR_v1">
+        <collision name="col_BR_v1"><geometry><box><size>0.2 2 1</size></box></geometry></collision>
+        <visual name="vis_BR_v1"><geometry><box><size>0.2 2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>1 -6 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_BR_h1">
+        <collision name="col_BR_h1"><geometry><box><size>4 0.2 1</size></box></geometry></collision>
+        <visual name="vis_BR_h1"><geometry><box><size>4 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>1 -7 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_BR_v2">
+        <collision name="col_BR_v2"><geometry><box><size>0.2 3 1</size></box></geometry></collision>
+        <visual name="vis_BR_v2"><geometry><box><size>0.2 3 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>3 -6.5 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_L3_h">
+        <collision name="col_L3_h"><geometry><box><size>3 0.2 1</size></box></geometry></collision>
+        <visual name="vis_L3_h"><geometry><box><size>3 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>6.5 -7 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_L3_v">
+        <collision name="col_L3_v"><geometry><box><size>0.2 2 1</size></box></geometry></collision>
+        <visual name="vis_L3_v"><geometry><box><size>0.2 2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>5 -8 0.5 0 0 0</pose>
+      </link>
+
+      <!--
+      ======================================
+      NEW WALLS TO FILL EMPTY SPACE
+      ======================================
+      -->
+
+      <!-- New wall in center-right -->
+      <link name="wall_NEW_CR_1">
+        <collision name="col_NEW_CR_1"><geometry><box><size>4 0.2 1</size></box></geometry></collision>
+        <visual name="vis_NEW_CR_1"><geometry><box><size>4 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>3 -2 0.5 0 0 0</pose>
+      </link>
+
+      <!-- New L-wall in center-bottom -->
+      <link name="wall_NEW_L4_h">
+        <collision name="col_NEW_L4_h"><geometry><box><size>3 0.2 1</size></box></geometry></collision>
+        <visual name="vis_NEW_L4_h"><geometry><box><size>3 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-1.5 -5 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_NEW_L4_v">
+        <collision name="col_NEW_L4_v"><geometry><box><size>0.2 4 1</size></box></geometry></collision>
+        <visual name="vis_NEW_L4_v"><geometry><box><size>0.2 4 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>-3 -3 0.5 0 0 0</pose>
+      </link>
+
+      <!-- New vertical wall in center -->
+      <link name="wall_NEW_C_1">
+        <collision name="col_NEW_C_1"><geometry><box><size>0.2 3 1</size></box></geometry></collision>
+        <visual name="vis_NEW_C_1"><geometry><box><size>0.2 3 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>0.5 -3.5 0.5 0 0 0</pose>
+      </link>
+      
+      <!-- New L-wall in center-right -->
+      <link name="wall_NEW_L5_h">
+        <collision name="col_NEW_L5_h"><geometry><box><size>4 0.2 1</size></box></geometry></collision>
+        <visual name="vis_NEW_L5_h"><geometry><box><size>4 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>7 -4 0.5 0 0 0</pose>
+      </link>
+      <link name="wall_NEW_L5_v">
+        <collision name="col_NEW_L5_v"><geometry><box><size>0.2 4 1</size></box></geometry></collision>
+        <visual name="vis_NEW_L5_v"><geometry><box><size>0.2 4 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
+        <pose>5 -2 0.5 0 0 0</pose>
+      </link>
+
+    </model>
+  </world>
+</sdf>
