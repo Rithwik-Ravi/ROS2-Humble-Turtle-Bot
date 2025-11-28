@@ -1,5 +1,5 @@
-[0.043s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'rover']
-[0.043s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['rover'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7c3516858580>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c351681ffd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c351681ffd0>>)
+[0.043s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.043s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a56a756c520>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a56a752ff70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a56a752ff70>>)
 [0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
 [0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
 [0.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
@@ -17,7 +17,7 @@
 [0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
 [0.111s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
 [0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
-[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
 [0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
 [0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
 [0.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
@@ -59,13 +59,13 @@
 [0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover' with type 'ros.ament_python' and name 'rover'
 [0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ignore', 'ignore_ament_install']
 [0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore'
-[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore_ament_install'
-[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_pkg']
-[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_pkg'
-[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_meta']
-[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_meta'
-[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ros']
-[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ros'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore_ament_install'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_pkg']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_pkg'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_meta']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ros'
 [0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['cmake', 'python']
 [0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'cmake'
 [0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'python'
@@ -78,8 +78,8 @@
 [0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
 [0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
 [0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
-[0.132s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 400 installed packages in /opt/ros/humble
-[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.131s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 401 installed packages in /opt/ros/humble
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
 [0.151s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'cmake_args' from command line to 'None'
 [0.151s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'cmake_target' from command line to 'None'
 [0.151s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'cmake_target_skip_unavailable' from command line to 'False'
@@ -100,44 +100,44 @@
 [0.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/ament_prefix_path.sh'
 [0.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.263s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rithwik/ros2_workspace2/src/rover'
-[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
-[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/src/rover': PYTHONPATH=/home/rithwik/ros2_workspace2/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/rithwik/ros2_workspace2/build/rover/build install --record /home/rithwik/ros2_workspace2/build/rover/install.log --single-version-externally-managed install_data
-[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/src/rover' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/rithwik/ros2_workspace2/build/rover/build install --record /home/rithwik/ros2_workspace2/build/rover/install.log --single-version-externally-managed install_data
-[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover' for CMake module files
-[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover' for CMake config files
-[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/lib'
-[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/bin'
-[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/lib/pkgconfig/rover.pc'
-[0.535s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages'
-[0.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover', 'pythonpath')
-[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/pythonpath.ps1'
-[0.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/pythonpath.dsv'
-[0.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/pythonpath.sh'
-[0.536s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/bin'
-[0.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover)
-[0.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.ps1'
-[0.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.dsv'
-[0.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.sh'
-[0.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.bash'
-[0.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.zsh'
-[0.537s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/rover/share/colcon-core/packages/rover)
-[0.538s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
-[0.538s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
-[0.538s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
-[0.538s] DEBUG:colcon.colcon_core.event_reactor:joining thread
-[0.540s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
-[0.540s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
-[0.540s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
-[0.549s] DEBUG:colcon.colcon_core.event_reactor:joined thread
-[0.549s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.ps1'
-[0.550s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rithwik/ros2_workspace2/install/_local_setup_util_ps1.py'
-[0.550s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.ps1'
-[0.551s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.sh'
-[0.551s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rithwik/ros2_workspace2/install/_local_setup_util_sh.py'
-[0.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.sh'
-[0.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.bash'
-[0.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.bash'
-[0.552s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.zsh'
-[0.552s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.zsh'
+[0.259s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rithwik/ros2_workspace2/src/rover'
+[0.259s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/src/rover': PYTHONPATH=/home/rithwik/ros2_workspace2/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/rithwik/ros2_workspace2/build/rover/build install --record /home/rithwik/ros2_workspace2/build/rover/install.log --single-version-externally-managed install_data
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/src/rover' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/rithwik/ros2_workspace2/build/rover/build install --record /home/rithwik/ros2_workspace2/build/rover/install.log --single-version-externally-managed install_data
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover' for CMake module files
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover' for CMake config files
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/lib'
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/bin'
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/lib/pkgconfig/rover.pc'
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages'
+[0.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover', 'pythonpath')
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/pythonpath.ps1'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/pythonpath.dsv'
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/pythonpath.sh'
+[0.534s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/bin'
+[0.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover)
+[0.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.ps1'
+[0.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.dsv'
+[0.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.sh'
+[0.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.bash'
+[0.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.zsh'
+[0.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/rover/share/colcon-core/packages/rover)
+[0.536s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.536s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.536s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.536s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.539s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.539s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.544s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.545s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.ps1'
+[0.545s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rithwik/ros2_workspace2/install/_local_setup_util_ps1.py'
+[0.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.ps1'
+[0.546s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.sh'
+[0.546s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rithwik/ros2_workspace2/install/_local_setup_util_sh.py'
+[0.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.sh'
+[0.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.bash'
+[0.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.bash'
+[0.547s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.zsh'
+[0.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.zsh'

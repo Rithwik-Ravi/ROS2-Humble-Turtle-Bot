@@ -4,9 +4,10 @@
   This is a new, complex, solvable maze.
   Corridors are 2.5m wide.
   The (0,0) spawn point is clear.
+  REMOVED: h_wall_21, h_wall_27, h_wall_23, h_wall_13, v_wall_7, v_wall_1
 -->
 <sdf version="1.6">
-  <world name="complex_maze_v4">
+  <world name="complex_maze_v4_edited">
 
     <!-- Physics Engine Configuration -->
     <physics type="ode">
@@ -174,13 +175,8 @@
         <pose>6.25 2.5 0.5 0 0 0</pose>
       </link>
 
-      <!-- Center (0,0) is clear -->
+      <!-- REMOVED h_wall_13 (-6.25, 0) -->
       
-      <link name="h_wall_13">
-        <collision name="col_h13"><geometry><box><size>2.5 0.2 1</size></box></geometry></collision>
-        <visual name="vis_h13"><geometry><box><size>2.5 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
-        <pose>-6.25 0 0.5 0 0 0</pose>
-      </link>
       <link name="h_wall_14">
         <collision name="col_h14"><geometry><box><size>2.5 0.2 1</size></box></geometry></collision>
         <visual name="vis_h14"><geometry><box><size>2.5 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
@@ -218,21 +214,16 @@
         <visual name="vis_h20"><geometry><box><size>2.5 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
         <pose>-6.25 -5 0.5 0 0 0</pose>
       </link>
-      <link name="h_wall_21">
-        <collision name="col_h21"><geometry><box><size>2.5 0.2 1</size></box></geometry></collision>
-        <visual name="vis_h21"><geometry><box><size>2.5 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
-        <pose>-1.25 -5 0.5 0 0 0</pose>
-      </link>
+      
+      <!-- REMOVED h_wall_21 (-1.25, -5) -->
+
       <link name="h_wall_22">
         <collision name="col_h22"><geometry><box><size>2.5 0.2 1</size></box></geometry></collision>
         <visual name="vis_h22"><geometry><box><size>2.5 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
         <pose>3.75 -5 0.5 0 0 0</pose>
       </link>
-      <link name="h_wall_23">
-        <collision name="col_h23"><geometry><box><size>2.5 0.2 1</size></box></geometry></collision>
-        <visual name="vis_h23"><geometry><box><size>2.5 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
-        <pose>8.75 -5 0.5 0 0 0</pose>
-      </link>
+      
+      <!-- REMOVED h_wall_23 (8.75, -5) -->
 
       <link name="h_wall_24">
         <collision name="col_h24"><geometry><box><size>2.5 0.2 1</size></box></geometry></collision>
@@ -249,18 +240,13 @@
         <visual name="vis_h26"><geometry><box><size>2.5 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
         <pose>1.25 -7.5 0.5 0 0 0</pose>
       </link>
-      <link name="h_wall_27">
-        <collision name="col_h27"><geometry><box><size>2.5 0.2 1</size></box></geometry></collision>
-        <visual name="vis_h27"><geometry><box><size>2.5 0.2 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
-        <pose>6.25 -7.5 0.5 0 0 0</pose>
-      </link>
+      
+      <!-- REMOVED h_wall_27 (6.25, -7.5) -->
 
       <!-- Vertical Walls -->
-      <link name="v_wall_1">
-        <collision name="col_v1"><geometry><box><size>0.2 2.5 1</size></box></geometry></collision>
-        <visual name="vis_v1"><geometry><box><size>0.2 2.5 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
-        <pose>-7.5 8.75 0.5 0 0 0</pose>
-      </link>
+      
+      <!-- REMOVED v_wall_1 (-7.5, 8.75) -->
+
       <link name="v_wall_2">
         <collision name="col_v2"><geometry><box><size>0.2 2.5 1</size></box></geometry></collision>
         <visual name="vis_v2"><geometry><box><size>0.2 2.5 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
@@ -286,11 +272,8 @@
         <visual name="vis_v6"><geometry><box><size>0.2 2.5 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
         <pose>5 1.25 0.5 0 0 0</pose>
       </link>
-      <link name="v_wall_7">
-        <collision name="col_v7"><geometry><box><size>0.2 2.5 1</size></box></geometry></collision>
-        <visual name="vis_v7"><geometry><box><size>0.2 2.5 1</size></box></geometry><material><script><name>Gazebo/Green</name></script></material></visual>
-        <pose>7.5 3.75 0.5 0 0 0</pose>
-      </link>
+      
+      <!-- REMOVED v_wall_7 (7.5, 3.75) -->
 
       <link name="v_wall_8">
         <collision name="col_v8"><geometry><box><size>0.2 2.5 1</size></box></geometry></collision>
