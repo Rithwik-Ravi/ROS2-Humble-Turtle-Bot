@@ -60,6 +60,18 @@ This terminal runs the **keyboard controller**.
 source /opt/ros/humble/setup.bash
 cd ~/ros2_workspace2
 source install/setup.bash
+ros2 run rover avoid_obstacle
+```
+
+---
+
+### 🎮 Terminal 4: Obstical Avoidance Script
+
+This terminal runs the **avoid_obstacle**.
+```bash
+source /opt/ros/humble/setup.bash
+cd ~/ros2_workspace2
+source install/setup.bash
 ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
