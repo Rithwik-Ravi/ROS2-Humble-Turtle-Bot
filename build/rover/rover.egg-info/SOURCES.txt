@@ -10,12 +10,14 @@ setup.py
 ../../build/rover/rover.egg-info/top_level.txt
 ../../build/rover/rover.egg-info/zip-safe
 launch/1_rviz.launch.py
+launch/2D_mapping.launch.py
 launch/2_gazebo.launch.py
 launch/slam.launch.py
 resource/rover
 rover/__init__.py
 rover/gap_follower.py
 rover/obstacle_avoiding.py
+rover/wall_follower.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

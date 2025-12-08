@@ -15,15 +15,18 @@ creating /home/rithwik/ros2_workspace2/build/rover/build
 creating /home/rithwik/ros2_workspace2/build/rover/build/lib
 creating /home/rithwik/ros2_workspace2/build/rover/build/lib/rover
 copying rover/obstacle_avoiding.py -> /home/rithwik/ros2_workspace2/build/rover/build/lib/rover
+copying rover/wall_follower.py -> /home/rithwik/ros2_workspace2/build/rover/build/lib/rover
 copying rover/__init__.py -> /home/rithwik/ros2_workspace2/build/rover/build/lib/rover
 copying rover/gap_follower.py -> /home/rithwik/ros2_workspace2/build/rover/build/lib/rover
 running install
 running install_lib
 creating /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover
 copying /home/rithwik/ros2_workspace2/build/rover/build/lib/rover/obstacle_avoiding.py -> /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover
+copying /home/rithwik/ros2_workspace2/build/rover/build/lib/rover/wall_follower.py -> /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover
 copying /home/rithwik/ros2_workspace2/build/rover/build/lib/rover/__init__.py -> /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover
 copying /home/rithwik/ros2_workspace2/build/rover/build/lib/rover/gap_follower.py -> /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover
 byte-compiling /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/obstacle_avoiding.py to obstacle_avoiding.cpython-310.pyc
+byte-compiling /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/wall_follower.py to wall_follower.cpython-310.pyc
 byte-compiling /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__init__.py to __init__.cpython-310.pyc
 byte-compiling /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/gap_follower.py to gap_follower.cpython-310.pyc
 running install_data
@@ -35,6 +38,7 @@ copying package.xml -> /home/rithwik/ros2_workspace2/install/rover/share/rover
 creating /home/rithwik/ros2_workspace2/install/rover/share/rover/launch
 copying launch/2_gazebo.launch.py -> /home/rithwik/ros2_workspace2/install/rover/share/rover/launch
 copying launch/1_rviz.launch.py -> /home/rithwik/ros2_workspace2/install/rover/share/rover/launch
+copying launch/2D_mapping.launch.py -> /home/rithwik/ros2_workspace2/install/rover/share/rover/launch
 copying launch/slam.launch.py -> /home/rithwik/ros2_workspace2/install/rover/share/rover/launch
 creating /home/rithwik/ros2_workspace2/install/rover/share/rover/urdf
 copying urdf/rover.urdf -> /home/rithwik/ros2_workspace2/install/rover/share/rover/urdf
@@ -47,4 +51,5 @@ Copying ../../build/rover/rover.egg-info to /home/rithwik/ros2_workspace2/instal
 running install_scripts
 Installing avoid_obstacle script to /home/rithwik/ros2_workspace2/install/rover/lib/rover
 Installing gap_follower script to /home/rithwik/ros2_workspace2/install/rover/lib/rover
+Installing wall_follower script to /home/rithwik/ros2_workspace2/install/rover/lib/rover
 writing list of installed files to '/home/rithwik/ros2_workspace2/build/rover/install.log'

@@ -1,13 +1,16 @@
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/obstacle_avoiding.py
+/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/wall_follower.py
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__init__.py
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/gap_follower.py
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__pycache__/obstacle_avoiding.cpython-310.pyc
+/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__pycache__/wall_follower.cpython-310.pyc
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__pycache__/__init__.cpython-310.pyc
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__pycache__/gap_follower.cpython-310.pyc
 /home/rithwik/ros2_workspace2/install/rover/share/ament_index/resource_index/packages/rover
 /home/rithwik/ros2_workspace2/install/rover/share/rover/package.xml
 /home/rithwik/ros2_workspace2/install/rover/share/rover/launch/2_gazebo.launch.py
 /home/rithwik/ros2_workspace2/install/rover/share/rover/launch/1_rviz.launch.py
+/home/rithwik/ros2_workspace2/install/rover/share/rover/launch/2D_mapping.launch.py
 /home/rithwik/ros2_workspace2/install/rover/share/rover/launch/slam.launch.py
 /home/rithwik/ros2_workspace2/install/rover/share/rover/urdf/rover.urdf
 /home/rithwik/ros2_workspace2/install/rover/share/rover/worlds/maze_1_6x5.world
@@ -22,3 +25,4 @@
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/rithwik/ros2_workspace2/install/rover/lib/rover/avoid_obstacle
 /home/rithwik/ros2_workspace2/install/rover/lib/rover/gap_follower
+/home/rithwik/ros2_workspace2/install/rover/lib/rover/wall_follower
