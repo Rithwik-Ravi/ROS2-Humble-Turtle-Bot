@@ -1,0 +1,36 @@
+running egg_info
+creating ../../../build/explorer_bringup/explorer_bringup.egg-info
+writing ../../../build/explorer_bringup/explorer_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../../build/explorer_bringup/explorer_bringup.egg-info/dependency_links.txt
+writing entry points to ../../../build/explorer_bringup/explorer_bringup.egg-info/entry_points.txt
+writing requirements to ../../../build/explorer_bringup/explorer_bringup.egg-info/requires.txt
+writing top-level names to ../../../build/explorer_bringup/explorer_bringup.egg-info/top_level.txt
+writing manifest file '../../../build/explorer_bringup/explorer_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../../build/explorer_bringup/explorer_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../../build/explorer_bringup/explorer_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rithwik/ros2_workspace2/build/explorer_bringup/build
+creating /home/rithwik/ros2_workspace2/build/explorer_bringup/build/lib
+creating /home/rithwik/ros2_workspace2/build/explorer_bringup/build/lib/explorer_bringup
+copying explorer_bringup/__init__.py -> /home/rithwik/ros2_workspace2/build/explorer_bringup/build/lib/explorer_bringup
+copying explorer_bringup/manager.py -> /home/rithwik/ros2_workspace2/build/explorer_bringup/build/lib/explorer_bringup
+running install
+running install_lib
+creating /home/rithwik/ros2_workspace2/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup
+copying /home/rithwik/ros2_workspace2/build/explorer_bringup/build/lib/explorer_bringup/__init__.py -> /home/rithwik/ros2_workspace2/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup
+copying /home/rithwik/ros2_workspace2/build/explorer_bringup/build/lib/explorer_bringup/manager.py -> /home/rithwik/ros2_workspace2/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup
+byte-compiling /home/rithwik/ros2_workspace2/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rithwik/ros2_workspace2/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup/manager.py to manager.cpython-310.pyc
+running install_data
+creating /home/rithwik/ros2_workspace2/install/explorer_bringup/share/ament_index
+creating /home/rithwik/ros2_workspace2/install/explorer_bringup/share/ament_index/resource_index
+creating /home/rithwik/ros2_workspace2/install/explorer_bringup/share/ament_index/resource_index/packages
+copying resource/explorer_bringup -> /home/rithwik/ros2_workspace2/install/explorer_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup
+copying launch/explorer.launch.py -> /home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup
+running install_egg_info
+Copying ../../../build/explorer_bringup/explorer_bringup.egg-info to /home/rithwik/ros2_workspace2/install/explorer_bringup/lib/python3.10/site-packages/explorer_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+Installing manager script to /home/rithwik/ros2_workspace2/install/explorer_bringup/lib/explorer_bringup
+writing list of installed files to '/home/rithwik/ros2_workspace2/build/explorer_bringup/install.log'

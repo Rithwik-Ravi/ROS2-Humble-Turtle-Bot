@@ -1,0 +1,43 @@
+running egg_info
+creating ../../../build/explorer_wanderer/explorer_wanderer.egg-info
+writing ../../../build/explorer_wanderer/explorer_wanderer.egg-info/PKG-INFO
+writing dependency_links to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/dependency_links.txt
+writing entry points to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/entry_points.txt
+writing requirements to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/requires.txt
+writing top-level names to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/top_level.txt
+writing manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+reading manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+writing manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rithwik/ros2_workspace2/build/explorer_wanderer/build
+creating /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib
+creating /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer
+copying explorer_wanderer/__init__.py -> /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer
+copying explorer_wanderer/wanderer.py -> /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer
+copying explorer_wanderer/wanderer_server.py -> /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer
+copying explorer_wanderer/discoverer_server.py -> /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer
+running install
+running install_lib
+creating /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+copying /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer/__init__.py -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+copying /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer/wanderer.py -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+copying /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer/wanderer_server.py -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+copying /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer/discoverer_server.py -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+byte-compiling /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/wanderer.py to wanderer.cpython-310.pyc
+byte-compiling /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/wanderer_server.py to wanderer_server.cpython-310.pyc
+byte-compiling /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/discoverer_server.py to discoverer_server.cpython-310.pyc
+running install_data
+creating /home/rithwik/ros2_workspace2/install/explorer_wanderer/share/ament_index
+creating /home/rithwik/ros2_workspace2/install/explorer_wanderer/share/ament_index/resource_index
+creating /home/rithwik/ros2_workspace2/install/explorer_wanderer/share/ament_index/resource_index/packages
+copying resource/explorer_wanderer -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/share/ament_index/resource_index/packages
+copying package.xml -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer
+running install_egg_info
+Copying ../../../build/explorer_wanderer/explorer_wanderer.egg-info to /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing discoverer_server script to /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/explorer_wanderer
+Installing wanderer script to /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/explorer_wanderer
+Installing wanderer_server script to /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/explorer_wanderer
+writing list of installed files to '/home/rithwik/ros2_workspace2/build/explorer_wanderer/install.log'

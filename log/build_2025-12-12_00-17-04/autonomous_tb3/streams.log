@@ -1,0 +1,25 @@
+[0.775s] Invoking command in '/home/rithwik/ros2_workspace2/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3': PYTHONPATH=/home/rithwik/ros2_workspace2/build/autonomous_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/autonomous_tb3 build --build-base /home/rithwik/ros2_workspace2/build/autonomous_tb3/build install --record /home/rithwik/ros2_workspace2/build/autonomous_tb3/install.log --single-version-externally-managed install_data
+[0.899s] running egg_info
+[0.900s] writing ../../../build/autonomous_tb3/autonomous_tb3.egg-info/PKG-INFO
+[0.900s] writing dependency_links to ../../../build/autonomous_tb3/autonomous_tb3.egg-info/dependency_links.txt
+[0.900s] writing entry points to ../../../build/autonomous_tb3/autonomous_tb3.egg-info/entry_points.txt
+[0.900s] writing requirements to ../../../build/autonomous_tb3/autonomous_tb3.egg-info/requires.txt
+[0.900s] writing top-level names to ../../../build/autonomous_tb3/autonomous_tb3.egg-info/top_level.txt
+[0.900s] reading manifest file '../../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[0.901s] writing manifest file '../../../build/autonomous_tb3/autonomous_tb3.egg-info/SOURCES.txt'
+[0.901s] running build
+[0.901s] running build_py
+[0.901s] running install
+[0.901s] running install_lib
+[0.902s] running install_data
+[0.902s] running install_egg_info
+[0.903s] removing '/home/rithwik/ros2_workspace2/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info' (and everything under it)
+[0.903s] Copying ../../../build/autonomous_tb3/autonomous_tb3.egg-info to /home/rithwik/ros2_workspace2/install/autonomous_tb3/lib/python3.10/site-packages/autonomous_tb3-0.0.0-py3.10.egg-info
+[0.903s] running install_scripts
+[0.914s] Installing autonomous_waiter script to /home/rithwik/ros2_workspace2/install/autonomous_tb3/lib/autonomous_tb3
+[0.914s] Installing autonomous_waiter_lite script to /home/rithwik/ros2_workspace2/install/autonomous_tb3/lib/autonomous_tb3
+[0.914s] Installing maze_solver script to /home/rithwik/ros2_workspace2/install/autonomous_tb3/lib/autonomous_tb3
+[0.914s] Installing occupancy_grid_pub script to /home/rithwik/ros2_workspace2/install/autonomous_tb3/lib/autonomous_tb3
+[0.914s] Installing sdf_spawner script to /home/rithwik/ros2_workspace2/install/autonomous_tb3/lib/autonomous_tb3
+[0.914s] writing list of installed files to '/home/rithwik/ros2_workspace2/build/autonomous_tb3/install.log'
+[0.933s] Invoked command in '/home/rithwik/ros2_workspace2/src/ROS2-Autonomous-Driving-and-Navigation-SLAM-with-TurtleBot3/autonomous_tb3' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/autonomous_tb3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/autonomous_tb3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/autonomous_tb3 build --build-base /home/rithwik/ros2_workspace2/build/autonomous_tb3/build install --record /home/rithwik/ros2_workspace2/build/autonomous_tb3/install.log --single-version-externally-managed install_data

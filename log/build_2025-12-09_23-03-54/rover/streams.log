@@ -1,0 +1,28 @@
+[0.301s] Invoking command in '/home/rithwik/ros2_workspace2/build/rover': PYTHONPATH=/home/rithwik/ros2_workspace2/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rithwik/ros2_workspace2/build/rover/build --no-deps symlink_data --force
+[0.442s] running develop
+[0.512s] running egg_info
+[0.512s] writing rover.egg-info/PKG-INFO
+[0.512s] writing dependency_links to rover.egg-info/dependency_links.txt
+[0.512s] writing entry points to rover.egg-info/entry_points.txt
+[0.512s] writing requirements to rover.egg-info/requires.txt
+[0.512s] writing top-level names to rover.egg-info/top_level.txt
+[0.513s] reading manifest file 'rover.egg-info/SOURCES.txt'
+[0.514s] writing manifest file 'rover.egg-info/SOURCES.txt'
+[0.514s] running build_ext
+[0.514s] Creating /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover.egg-link (link to .)
+[0.515s] Installing avoid_obstacle script to /home/rithwik/ros2_workspace2/install/rover/lib/rover
+[0.515s] Installing gap_follower script to /home/rithwik/ros2_workspace2/install/rover/lib/rover
+[0.515s] Installing wall_follower script to /home/rithwik/ros2_workspace2/install/rover/lib/rover
+[0.515s] 
+[0.515s] Installed /home/rithwik/ros2_workspace2/build/rover
+[0.515s] running symlink_data
+[0.515s] symbolically linking /home/rithwik/ros2_workspace2/build/rover/resource/rover -> /home/rithwik/ros2_workspace2/install/rover/share/ament_index/resource_index/packages
+[0.515s] symbolically linking /home/rithwik/ros2_workspace2/build/rover/package.xml -> /home/rithwik/ros2_workspace2/install/rover/share/rover
+[0.515s] symbolically linking /home/rithwik/ros2_workspace2/build/rover/launch/2_gazebo.launch.py -> /home/rithwik/ros2_workspace2/install/rover/share/rover/launch
+[0.515s] symbolically linking /home/rithwik/ros2_workspace2/build/rover/launch/1_rviz.launch.py -> /home/rithwik/ros2_workspace2/install/rover/share/rover/launch
+[0.515s] symbolically linking /home/rithwik/ros2_workspace2/build/rover/launch/2D_mapping.launch.py -> /home/rithwik/ros2_workspace2/install/rover/share/rover/launch
+[0.515s] symbolically linking /home/rithwik/ros2_workspace2/build/rover/launch/slam.launch.py -> /home/rithwik/ros2_workspace2/install/rover/share/rover/launch
+[0.515s] symbolically linking /home/rithwik/ros2_workspace2/build/rover/urdf/rover.urdf -> /home/rithwik/ros2_workspace2/install/rover/share/rover/urdf
+[0.515s] symbolically linking /home/rithwik/ros2_workspace2/build/rover/worlds/maze_1_6x5.world -> /home/rithwik/ros2_workspace2/install/rover/share/rover/worlds
+[0.515s] symbolically linking /home/rithwik/ros2_workspace2/build/rover/worlds/wide_maze.world -> /home/rithwik/ros2_workspace2/install/rover/share/rover/worlds
+[0.531s] Invoked command in '/home/rithwik/ros2_workspace2/build/rover' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rithwik/ros2_workspace2/build/rover/build --no-deps symlink_data --force

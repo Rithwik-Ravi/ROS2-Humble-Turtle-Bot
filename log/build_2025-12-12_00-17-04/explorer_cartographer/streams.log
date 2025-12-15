@@ -1,0 +1,46 @@
+[0.242s] Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer': CMAKE_PREFIX_PATH=/home/rithwik/ros2_workspace2/install/rover:/home/rithwik/ros2_workspace2/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_cartographer -DCMAKE_INSTALL_PREFIX=/home/rithwik/ros2_workspace2/install/explorer_cartographer
+[0.484s] -- The C compiler identification is GNU 11.4.0
+[0.485s] -- The CXX compiler identification is GNU 11.4.0
+[0.485s] -- Detecting C compiler ABI info
+[0.486s] -- Detecting C compiler ABI info - done
+[0.486s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.486s] -- Detecting C compile features
+[0.486s] -- Detecting C compile features - done
+[0.486s] -- Detecting CXX compiler ABI info
+[0.486s] -- Detecting CXX compiler ABI info - done
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.486s] -- Detecting CXX compile features
+[0.486s] -- Detecting CXX compile features - done
+[0.486s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.560s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.643s] -- Configuring done
+[0.644s] -- Generating done
+[0.644s] -- Build files have been written to: /home/rithwik/ros2_workspace2/build/explorer_cartographer
+[0.649s] Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/rithwik/ros2_workspace2/install/rover:/home/rithwik/ros2_workspace2/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake /home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_cartographer -DCMAKE_INSTALL_PREFIX=/home/rithwik/ros2_workspace2/install/explorer_cartographer
+[0.649s] Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer': CMAKE_PREFIX_PATH=/home/rithwik/ros2_workspace2/install/rover:/home/rithwik/ros2_workspace2/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /home/rithwik/ros2_workspace2/build/explorer_cartographer -- -j32 -l32
+[0.676s] Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/rithwik/ros2_workspace2/install/rover:/home/rithwik/ros2_workspace2/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /home/rithwik/ros2_workspace2/build/explorer_cartographer -- -j32 -l32
+[0.683s] Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer': CMAKE_PREFIX_PATH=/home/rithwik/ros2_workspace2/install/rover:/home/rithwik/ros2_workspace2/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /home/rithwik/ros2_workspace2/build/explorer_cartographer
+[0.688s] -- Install configuration: ""
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/config
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/config/turtlebot3_lds_2d.lua
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/launch
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/launch/occupancy_grid.launch.py
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/launch/cartographer.launch.py
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/rviz
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/rviz/tb3_cartographer.rviz
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/ament_index/resource_index/package_run_dependencies/explorer_cartographer
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/ament_index/resource_index/parent_prefix_path/explorer_cartographer
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/environment/ament_prefix_path.sh
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/environment/ament_prefix_path.dsv
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/environment/path.sh
+[0.688s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/environment/path.dsv
+[0.689s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/local_setup.bash
+[0.689s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/local_setup.sh
+[0.689s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/local_setup.zsh
+[0.689s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/local_setup.dsv
+[0.689s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.dsv
+[0.689s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/ament_index/resource_index/packages/explorer_cartographer
+[0.689s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/cmake/explorer_cartographerConfig.cmake
+[0.689s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/cmake/explorer_cartographerConfig-version.cmake
+[0.689s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.xml
+[0.691s] Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/rithwik/ros2_workspace2/install/rover:/home/rithwik/ros2_workspace2/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /home/rithwik/ros2_workspace2/build/explorer_cartographer

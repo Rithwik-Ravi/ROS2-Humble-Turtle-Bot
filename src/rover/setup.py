@@ -1,10 +1,6 @@
 from setuptools import find_packages, setup
 import os
 from glob import glob
-# This setup.py file is used to build the ROS 2 package for the rover.
-# It specifies the package name, version, and other metadata.
-# It also includes data files such as launch files and URDF files.
-# The package is named 'rover' and is versioned as '0.0.0'.
 
 package_name = 'rover'
 
@@ -17,20 +13,26 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         
-        # --- FIX: Corrected path (added 'launch') ---
+        # Launch files
         (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
         
-        # --- FIX: Corrected path (added 'urdf') ---
+        # URDF files
         (os.path.join('share', package_name, 'urdf'), glob('urdf/*')),
         
-        # --- ADDED: Installs your .world files ---
+        # World files
         (os.path.join('share', package_name, 'worlds'), glob(os.path.join('worlds', '*.world'))),
         (os.path.join('share', package_name, 'worlds', 'my_world'), glob('worlds/my_world/*')),
+        
+        # --- FIX: This line installs the nav2_params.yaml file ---
+        (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
+        
+        # Map files
+        (os.path.join('share', package_name, 'maps'), glob('maps/*')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='aanimesh',
-    maintainer_email='aanimesd@todo.todo',
+    maintainer_email='aanimesh@todo.todo',
     description='TODO: Package description',
     license='Apache-2.0',
     tests_require=['pytest'],
@@ -39,6 +41,8 @@ setup(
             'avoid_obstacle = rover.obstacle_avoiding:main',
             'gap_follower = rover.gap_follower:main',
             'wall_follower = rover.wall_follower:main',
+            'wanderer = rover.wanderer:main',
+            'sensor_diag = rover.sensor_diag:main',
         ],
     },
 )

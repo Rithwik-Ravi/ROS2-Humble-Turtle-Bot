@@ -1,11 +1,13 @@
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/obstacle_avoiding.py
-/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/wall_follower.py
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__init__.py
+/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/wanderer.py
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/gap_follower.py
+/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/sensor_diag.py
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__pycache__/obstacle_avoiding.cpython-310.pyc
-/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__pycache__/wall_follower.cpython-310.pyc
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__pycache__/__init__.cpython-310.pyc
+/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__pycache__/wanderer.cpython-310.pyc
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__pycache__/gap_follower.cpython-310.pyc
+/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover/__pycache__/sensor_diag.cpython-310.pyc
 /home/rithwik/ros2_workspace2/install/rover/share/ament_index/resource_index/packages/rover
 /home/rithwik/ros2_workspace2/install/rover/share/rover/package.xml
 /home/rithwik/ros2_workspace2/install/rover/share/rover/launch/2_gazebo.launch.py
@@ -16,6 +18,9 @@
 /home/rithwik/ros2_workspace2/install/rover/share/rover/worlds/maze_1_6x5.world
 /home/rithwik/ros2_workspace2/install/rover/share/rover/worlds/wide_maze.world
 /home/rithwik/ros2_workspace2/install/rover/share/rover/worlds/my_world
+/home/rithwik/ros2_workspace2/install/rover/share/rover/config/nav2_params.yaml
+/home/rithwik/ros2_workspace2/install/rover/share/rover/maps/my_maze_map.pgm
+/home/rithwik/ros2_workspace2/install/rover/share/rover/maps/my_maze_map.yaml
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info/requires.txt
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info/zip-safe
@@ -25,4 +30,6 @@
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/rithwik/ros2_workspace2/install/rover/lib/rover/avoid_obstacle
 /home/rithwik/ros2_workspace2/install/rover/lib/rover/gap_follower
+/home/rithwik/ros2_workspace2/install/rover/lib/rover/sensor_diag
 /home/rithwik/ros2_workspace2/install/rover/lib/rover/wall_follower
+/home/rithwik/ros2_workspace2/install/rover/lib/rover/wanderer

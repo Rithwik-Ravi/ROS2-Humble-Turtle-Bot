@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "explorer_interfaces__py",
+		"source" : "/home/rithwik/ros2_workspace2/build/explorer_interfaces/explorer_interfaces__py"
+	}
+}

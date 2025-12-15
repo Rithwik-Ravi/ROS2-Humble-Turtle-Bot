@@ -1,0 +1,21 @@
+[0.669s] Invoking command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_map_utils': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_map_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_map_utils build --build-base /home/rithwik/ros2_workspace2/build/explorer_map_utils/build install --record /home/rithwik/ros2_workspace2/build/explorer_map_utils/install.log --single-version-externally-managed install_data
+[0.778s] running egg_info
+[0.778s] writing ../../../build/explorer_map_utils/explorer_map_utils.egg-info/PKG-INFO
+[0.778s] writing dependency_links to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/dependency_links.txt
+[0.778s] writing entry points to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/entry_points.txt
+[0.778s] writing requirements to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/requires.txt
+[0.778s] writing top-level names to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/top_level.txt
+[0.779s] reading manifest file '../../../build/explorer_map_utils/explorer_map_utils.egg-info/SOURCES.txt'
+[0.779s] writing manifest file '../../../build/explorer_map_utils/explorer_map_utils.egg-info/SOURCES.txt'
+[0.780s] running build
+[0.780s] running build_py
+[0.780s] running install
+[0.780s] running install_lib
+[0.780s] running install_data
+[0.780s] running install_egg_info
+[0.781s] removing '/home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages/explorer_map_utils-0.0.0-py3.10.egg-info' (and everything under it)
+[0.781s] Copying ../../../build/explorer_map_utils/explorer_map_utils.egg-info to /home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages/explorer_map_utils-0.0.0-py3.10.egg-info
+[0.781s] running install_scripts
+[0.791s] Installing watchtower script to /home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/explorer_map_utils
+[0.791s] writing list of installed files to '/home/rithwik/ros2_workspace2/build/explorer_map_utils/install.log'
+[0.807s] Invoked command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_map_utils' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_map_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_map_utils build --build-base /home/rithwik/ros2_workspace2/build/explorer_map_utils/build install --record /home/rithwik/ros2_workspace2/build/explorer_map_utils/install.log --single-version-externally-managed install_data

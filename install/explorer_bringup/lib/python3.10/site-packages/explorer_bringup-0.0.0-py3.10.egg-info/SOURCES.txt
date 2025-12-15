@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/explorer_bringup/explorer_bringup.egg-info/PKG-INFO
+../../../build/explorer_bringup/explorer_bringup.egg-info/SOURCES.txt
+../../../build/explorer_bringup/explorer_bringup.egg-info/dependency_links.txt
+../../../build/explorer_bringup/explorer_bringup.egg-info/entry_points.txt
+../../../build/explorer_bringup/explorer_bringup.egg-info/requires.txt
+../../../build/explorer_bringup/explorer_bringup.egg-info/top_level.txt
+../../../build/explorer_bringup/explorer_bringup.egg-info/zip-safe
+explorer_bringup/__init__.py
+explorer_bringup/manager.py
+launch/explorer.launch.py
+resource/explorer_bringup
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

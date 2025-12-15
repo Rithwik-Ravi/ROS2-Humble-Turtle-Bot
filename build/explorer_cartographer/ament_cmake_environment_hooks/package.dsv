@@ -1,0 +1,4 @@
+source;share/explorer_cartographer/local_setup.bash
+source;share/explorer_cartographer/local_setup.dsv
+source;share/explorer_cartographer/local_setup.sh
+source;share/explorer_cartographer/local_setup.zsh

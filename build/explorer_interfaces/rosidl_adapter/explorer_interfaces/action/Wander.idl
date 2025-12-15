@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from explorer_interfaces/action/Wander.action
+// generated code does not contain a copyright notice
+
+
+module explorer_interfaces {
+  module action {
+    struct Wander_Goal {
+      @verbatim (language="comment", text=
+        "Strategy to use to explore the map:" "\n"
+        "   0=Random control" "\n"
+        "   1=Wall hugging" "\n"
+        "   ...")
+      uint8 strategy;
+
+      @verbatim (language="comment", text=
+        "Threshold to consider the map completed")
+      float map_completed_thres;
+    };
+    struct Wander_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Percentage of the map explored")
+    struct Wander_Feedback {
+      float progress;
+    };
+  };
+};

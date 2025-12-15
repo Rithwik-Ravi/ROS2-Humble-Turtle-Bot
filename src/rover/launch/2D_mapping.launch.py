@@ -22,19 +22,34 @@ def generate_launch_description():
             parameters=[
                 {'use_sim_time': use_sim_time},
                 {'base_frame': 'chassis'},
-                {'odom_frame': 'base_footprint'}, # FIXED: Changed from 'odom' to match your URDF
+                {'odom_frame': 'base_footprint'}, 
                 {'map_frame': 'map'},
                 {'scan_topic': '/scan'},
                 {'mode': 'mapping'},
-                {'map_update_interval': 3.0},
-                {'max_laser_range': 10.0},
-                {'minimum_time_interval': 0.5},
-                {'transform_timeout': 0.2},
-                {'tf_buffer_duration': 30.0},
+                
+                # --- QUALITY & SPEED TUNING ---
+                {'map_update_interval': 0.5},   # Faster visual updates
+                {'resolution': 0.05},          
+                {'max_laser_range': 20.0},     
+                
+                # --- STABILITY TUNING (Fix for Triangle Gaps) ---
+                # We update frequently on TURNS (heading) to clear the "triangle" gaps,
+                # but keep linear distance moderate to avoid drift.
+                {'minimum_time_interval': 0.2},   # Allow faster processing
+                {'minimum_travel_distance': 0.3}, # 0.3m linear move
+                {'minimum_travel_heading': 0.15}, # 0.15 rad (~8 deg) to catch turns
+                {'use_scan_matching': True},
+                {'do_loop_closing': True},
+                
+                # --- CRITICAL FIXES FOR TF LAG ---
+                {'transform_timeout': 0.5},      
+                {'tf_buffer_duration': 60.0},    
+                {'stack_size_to_use': 40000000}, 
+                {'enable_interactive_mode': True},
             ],
         ),
 
-        # Lifecycle Manager (Required to start SLAM Toolbox)
+        # Lifecycle Manager
         Node(
             package='nav2_lifecycle_manager',
             executable='lifecycle_manager',

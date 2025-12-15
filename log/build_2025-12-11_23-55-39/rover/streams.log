@@ -1,0 +1,26 @@
+[0.263s] Invoking command in '/home/rithwik/ros2_workspace2/src/rover': PYTHONPATH=/home/rithwik/ros2_workspace2/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/rithwik/ros2_workspace2/build/rover/build install --record /home/rithwik/ros2_workspace2/build/rover/install.log --single-version-externally-managed install_data
+[0.369s] running egg_info
+[0.369s] writing ../../build/rover/rover.egg-info/PKG-INFO
+[0.369s] writing dependency_links to ../../build/rover/rover.egg-info/dependency_links.txt
+[0.369s] writing entry points to ../../build/rover/rover.egg-info/entry_points.txt
+[0.369s] writing requirements to ../../build/rover/rover.egg-info/requires.txt
+[0.369s] writing top-level names to ../../build/rover/rover.egg-info/top_level.txt
+[0.370s] reading manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.370s] adding license file 'LICENSE'
+[0.371s] writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.371s] running build
+[0.371s] running build_py
+[0.371s] running install
+[0.371s] running install_lib
+[0.371s] running install_data
+[0.372s] copying launch/4_nav.launch.py -> /home/rithwik/ros2_workspace2/install/rover/share/rover/launch
+[0.372s] running install_egg_info
+[0.372s] removing '/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info' (and everything under it)
+[0.373s] Copying ../../build/rover/rover.egg-info to /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info
+[0.373s] running install_scripts
+[0.382s] Installing avoid_obstacle script to /home/rithwik/ros2_workspace2/install/rover/lib/rover
+[0.382s] Installing gap_follower script to /home/rithwik/ros2_workspace2/install/rover/lib/rover
+[0.382s] Installing wall_follower script to /home/rithwik/ros2_workspace2/install/rover/lib/rover
+[0.382s] Installing wanderer script to /home/rithwik/ros2_workspace2/install/rover/lib/rover
+[0.382s] writing list of installed files to '/home/rithwik/ros2_workspace2/build/rover/install.log'
+[0.392s] Invoked command in '/home/rithwik/ros2_workspace2/src/rover' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/rithwik/ros2_workspace2/build/rover/build install --record /home/rithwik/ros2_workspace2/build/rover/install.log --single-version-externally-managed install_data

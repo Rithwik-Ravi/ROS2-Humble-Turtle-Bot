@@ -1,0 +1,8 @@
+source;share/explorer_cartographer/hook/cmake_prefix_path.ps1
+source;share/explorer_cartographer/hook/cmake_prefix_path.dsv
+source;share/explorer_cartographer/hook/cmake_prefix_path.sh
+source;share/explorer_cartographer/local_setup.bash
+source;share/explorer_cartographer/local_setup.dsv
+source;share/explorer_cartographer/local_setup.ps1
+source;share/explorer_cartographer/local_setup.sh
+source;share/explorer_cartographer/local_setup.zsh

@@ -1,0 +1,3 @@
+[console_scripts]
+manager = explorer_bringup.manager:main
+
