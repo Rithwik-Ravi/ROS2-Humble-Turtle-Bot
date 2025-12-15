@@ -20,8 +20,6 @@ resource/rover
 rover/__init__.py
 rover/gap_follower.py
 rover/obstacle_avoiding.py
-rover/sensor_diag.py
-rover/wanderer.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

@@ -22,26 +22,28 @@ def generate_launch_description():
             parameters=[
                 {'use_sim_time': use_sim_time},
                 {'base_frame': 'chassis'},
-                {'odom_frame': 'base_footprint'}, 
+                {'odom_frame': 'base_footprint'}, # Matches your rover.urdf
                 {'map_frame': 'map'},
                 {'scan_topic': '/scan'},
                 {'mode': 'mapping'},
                 
-                # --- QUALITY & SPEED TUNING ---
-                {'map_update_interval': 0.5},   # Faster visual updates
-                {'resolution': 0.05},          
-                {'max_laser_range': 20.0},     
+                # --- STABILITY TUNING (Fixes Misalignment) ---
+                {'map_update_interval': 1.0},     # Update map once per second (Stable)
+                {'resolution': 0.05},
+                {'max_laser_range': 20.0},
                 
-                # --- STABILITY TUNING (Fix for Triangle Gaps) ---
-                # We update frequently on TURNS (heading) to clear the "triangle" gaps,
-                # but keep linear distance moderate to avoid drift.
-                {'minimum_time_interval': 0.2},   # Allow faster processing
-                {'minimum_travel_distance': 0.3}, # 0.3m linear move
-                {'minimum_travel_heading': 0.15}, # 0.15 rad (~8 deg) to catch turns
-                {'use_scan_matching': True},
+                # --- MOTION THRESHOLDS ---
+                # Only update map when robot moves significantly
+                {'minimum_time_interval': 0.5},   # Wait 0.5s between processing
+                {'minimum_travel_distance': 0.3}, # Move 30cm
+                {'minimum_travel_heading': 0.25}, # Rotate ~15 degrees
+                
+                # --- ALGORITHMIC FIXES ---
+                {'use_scan_matching': True},      # Helps correct odometry drift
                 {'do_loop_closing': True},
+                {'loop_match_minimum_chain_size': 10}, # Require better matches for loops
                 
-                # --- CRITICAL FIXES FOR TF LAG ---
+                # --- TF BUFFER (Prevents Lag) ---
                 {'transform_timeout': 0.5},      
                 {'tf_buffer_duration': 60.0},    
                 {'stack_size_to_use': 40000000}, 
