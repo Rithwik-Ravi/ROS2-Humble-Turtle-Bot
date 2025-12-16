@@ -40,9 +40,6 @@ setup(
         'console_scripts': [
             'avoid_obstacle = rover.obstacle_avoiding:main',
             'gap_follower = rover.gap_follower:main',
-            'wall_follower = rover.wall_follower:main',
-            'wanderer = rover.wanderer:main',
-            'sensor_diag = rover.sensor_diag:main',
         ],
     },
 )

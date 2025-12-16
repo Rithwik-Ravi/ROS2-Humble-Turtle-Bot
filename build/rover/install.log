@@ -26,6 +26,3 @@
 /home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/rithwik/ros2_workspace2/install/rover/lib/rover/avoid_obstacle
 /home/rithwik/ros2_workspace2/install/rover/lib/rover/gap_follower
-/home/rithwik/ros2_workspace2/install/rover/lib/rover/sensor_diag
-/home/rithwik/ros2_workspace2/install/rover/lib/rover/wall_follower
-/home/rithwik/ros2_workspace2/install/rover/lib/rover/wanderer

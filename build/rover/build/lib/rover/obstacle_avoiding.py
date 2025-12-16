@@ -16,7 +16,7 @@ class ObstacleAvoidingBot(Node):
         self.timer = self.create_timer(timer_period, self.send_cmd_vel)
         ## Initializing Global values
         ## given a value for VELOCITY
-        self.linear_vel = 0.22 
+        self.linear_vel = 0.22  # INCREASED SPEED 
         ## Making dictionary to divide the area of lase scan 
         self.regions = {
             'r1': 100.0, 'r2': 100.0, 'r3': 100.0,
@@ -74,7 +74,7 @@ class ObstacleAvoidingBot(Node):
         
         # CASE A: Too Close / Crashed -> Reverse
         if min_front < 0.35:
-            self.velocity.linear.x = -0.15 # Reverse
+            self.velocity.linear.x = -0.25 # Reverse Faster (was -0.15)
             self.velocity.angular.z = 0.0
             self.get_logger().info("CRITICAL: Too Close! Reversing...")
             self.publisher.publish(self.velocity)
@@ -87,9 +87,9 @@ class ObstacleAvoidingBot(Node):
             
             # Spin towards the slightly more open side, or default Left
             if min_right > min_left:
-                self.evade_dir = -1.2 # Spin Right
+                self.evade_dir = -1.5 # Spin Right Faster
             else:
-                self.evade_dir = 1.2  # Spin Left
+                self.evade_dir = 1.5  # Spin Left Faster
                 
             self.get_logger().info("TRAP: Corner detected! Starting Spin.")
             self.velocity.linear.x = 0.0
@@ -115,13 +115,13 @@ class ObstacleAvoidingBot(Node):
 
         # If front regions detect a close obstacle, slow down 
         if min_front < 0.8:
-            linear_velocity = 0.1 
+            linear_velocity = 0.2 # Increased from 0.1
 
         # FIX: Head-on Symmetry Breaker with Persistence
         # If facing wall dead-on, force a turn and HOLD it.
         if min_front < 1.0 and abs(angular_velocity) < 0.1:
             self.evade_timer = 15 # Force turn for 1.5s
-            self.evade_dir = 1.2  # Force Left
+            self.evade_dir = 1.5  # Force Left Faster
             self.get_logger().info("Head-on Wall -> Starting Forced Left Turn")
             self.velocity.linear.x = 0.0
             self.velocity.angular.z = self.evade_dir

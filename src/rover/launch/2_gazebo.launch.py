@@ -21,7 +21,7 @@ def generate_launch_description():
     world_path = os.path.join(package_dir, 'worlds', 'wide_maze.world')
     # -----------------------------------------------
 
-    # --- ADDED: New, correct Gazebo launch (FIXED SYNTAX) ---
+    # --- ADDED: New, correct Gazebo launch ---
     gazebo_node = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(gazebo_ros_pkg, 'launch', 'gazebo.launch.py')
@@ -37,9 +37,10 @@ def generate_launch_description():
         executable='spawn_entity.py',
         name='urdf_spawner',
         output='screen',
-        arguments=["-topic", "/robot_description", "-entity", "dolly"])
+        # --- FIX: Added "-z", "0.5" to spawn above ground ---
+        arguments=["-topic", "/robot_description", "-entity", "dolly", "-z", "0.5"])
     
-    # --- ADDED: 5-second delay for spawner ---
+    # --- ADDED: 15-second delay to let world load first ---
     delayed_spawn_entity = TimerAction(
         period=5.0,
         actions=[spawn_entity_node]

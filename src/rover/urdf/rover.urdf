@@ -388,25 +388,14 @@
     </sensor>
     <material>Gazebo/DarkGrey</material>
   </gazebo> 
-  <gazebo reference="wheel_front_right">
-    <mu1>10.0</mu1>
-    <mu2>10.0</mu2>
-    <kp>1000000.0</kp>
-    <kd>100.0</kd>
-    <minDepth>0.001</minDepth>
-    <maxVel>10.0</maxVel>
+<gazebo reference="wheel_front_right">
     <material>Gazebo/Purple</material>
   </gazebo>
 
   <gazebo reference="wheel_front_left">
-    <mu1>10.0</mu1>
-    <mu2>10.0</mu2>
-    <kp>1000000.0</kp>
-    <kd>100.0</kd>
-    <minDepth>0.001</minDepth>
-    <maxVel>10.0</maxVel>
     <material>Gazebo/Purple</material>
   </gazebo>
+  
   <!--
   <gazebo reference="wheel_back_right">
     <material>Gazebo/Purple</material>
