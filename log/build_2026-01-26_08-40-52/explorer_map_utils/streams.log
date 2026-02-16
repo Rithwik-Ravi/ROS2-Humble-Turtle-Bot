@@ -1,0 +1,37 @@
+[0.883s] Invoking command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_map_utils': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_map_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_map_utils build --build-base /home/rithwik/ros2_workspace2/build/explorer_map_utils/build install --record /home/rithwik/ros2_workspace2/build/explorer_map_utils/install.log --single-version-externally-managed install_data
+[1.007s] running egg_info
+[1.007s] creating ../../../build/explorer_map_utils/explorer_map_utils.egg-info
+[1.007s] writing ../../../build/explorer_map_utils/explorer_map_utils.egg-info/PKG-INFO
+[1.007s] writing dependency_links to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/dependency_links.txt
+[1.007s] writing entry points to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/entry_points.txt
+[1.007s] writing requirements to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/requires.txt
+[1.007s] writing top-level names to ../../../build/explorer_map_utils/explorer_map_utils.egg-info/top_level.txt
+[1.008s] writing manifest file '../../../build/explorer_map_utils/explorer_map_utils.egg-info/SOURCES.txt'
+[1.009s] reading manifest file '../../../build/explorer_map_utils/explorer_map_utils.egg-info/SOURCES.txt'
+[1.009s] writing manifest file '../../../build/explorer_map_utils/explorer_map_utils.egg-info/SOURCES.txt'
+[1.009s] running build
+[1.009s] running build_py
+[1.009s] creating /home/rithwik/ros2_workspace2/build/explorer_map_utils/build
+[1.009s] creating /home/rithwik/ros2_workspace2/build/explorer_map_utils/build/lib
+[1.009s] creating /home/rithwik/ros2_workspace2/build/explorer_map_utils/build/lib/explorer_map_utils
+[1.009s] copying explorer_map_utils/__init__.py -> /home/rithwik/ros2_workspace2/build/explorer_map_utils/build/lib/explorer_map_utils
+[1.010s] copying explorer_map_utils/watchtower.py -> /home/rithwik/ros2_workspace2/build/explorer_map_utils/build/lib/explorer_map_utils
+[1.010s] running install
+[1.010s] running install_lib
+[1.010s] creating /home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages/explorer_map_utils
+[1.011s] copying /home/rithwik/ros2_workspace2/build/explorer_map_utils/build/lib/explorer_map_utils/__init__.py -> /home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages/explorer_map_utils
+[1.011s] copying /home/rithwik/ros2_workspace2/build/explorer_map_utils/build/lib/explorer_map_utils/watchtower.py -> /home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages/explorer_map_utils
+[1.011s] byte-compiling /home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages/explorer_map_utils/__init__.py to __init__.cpython-310.pyc
+[1.011s] byte-compiling /home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages/explorer_map_utils/watchtower.py to watchtower.cpython-310.pyc
+[1.011s] running install_data
+[1.011s] creating /home/rithwik/ros2_workspace2/install/explorer_map_utils/share/ament_index
+[1.011s] creating /home/rithwik/ros2_workspace2/install/explorer_map_utils/share/ament_index/resource_index
+[1.011s] creating /home/rithwik/ros2_workspace2/install/explorer_map_utils/share/ament_index/resource_index/packages
+[1.011s] copying resource/explorer_map_utils -> /home/rithwik/ros2_workspace2/install/explorer_map_utils/share/ament_index/resource_index/packages
+[1.011s] copying package.xml -> /home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils
+[1.011s] running install_egg_info
+[1.013s] Copying ../../../build/explorer_map_utils/explorer_map_utils.egg-info to /home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages/explorer_map_utils-0.0.0-py3.10.egg-info
+[1.013s] running install_scripts
+[1.025s] Installing watchtower script to /home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/explorer_map_utils
+[1.025s] writing list of installed files to '/home/rithwik/ros2_workspace2/build/explorer_map_utils/install.log'
+[1.040s] Invoked command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_map_utils' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_map_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_map_utils build --build-base /home/rithwik/ros2_workspace2/build/explorer_map_utils/build install --record /home/rithwik/ros2_workspace2/build/explorer_map_utils/install.log --single-version-externally-managed install_data

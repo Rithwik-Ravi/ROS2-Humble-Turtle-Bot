@@ -1,0 +1,506 @@
+[0.184s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.184s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x707dbbd7c760>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x707dbbd7c1f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x707dbbd7c1f0>>)
+[0.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.322s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rithwik/ros2_workspace2'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'ros'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['cmake', 'python']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'cmake'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'python'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extensions ['python_setup_py']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer) by extension 'python_setup_py'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_bringup) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_bringup' with type 'ros.ament_python' and name 'explorer_bringup'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_cartographer) by extension 'ros'
+[0.345s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_cartographer' with type 'ros.ament_cmake' and name 'explorer_cartographer'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_gazebo) by extension 'ros'
+[0.347s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_gazebo' with type 'ros.ament_cmake' and name 'explorer_gazebo'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_interfaces) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_interfaces' with type 'ros.ament_cmake' and name 'explorer_interfaces'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_map_utils) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_map_utils' with type 'ros.ament_python' and name 'explorer_map_utils'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_explorer/explorer_wanderer) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_explorer/explorer_wanderer' with type 'ros.ament_python' and name 'explorer_wanderer'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover' with type 'ros.ament_python' and name 'rover'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'ros'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['cmake', 'python']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_tutorial) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.384s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 418 installed packages in /opt/ros/humble
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rithwik/ros2_workspace2/build/explorer_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rithwik/ros2_workspace2/install/explorer_bringup', 'merge_install': False, 'path': '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rithwik/ros2_workspace2/build/explorer_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rithwik/ros2_workspace2/install/explorer_cartographer', 'merge_install': False, 'path': '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'explorer_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rithwik/ros2_workspace2/build/explorer_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rithwik/ros2_workspace2/install/explorer_gazebo', 'merge_install': False, 'path': '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rithwik/ros2_workspace2/build/explorer_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rithwik/ros2_workspace2/install/explorer_interfaces', 'merge_install': False, 'path': '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_map_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_map_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rithwik/ros2_workspace2/build/explorer_map_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rithwik/ros2_workspace2/install/explorer_map_utils', 'merge_install': False, 'path': '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_map_utils', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'explorer_wanderer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'explorer_wanderer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rithwik/ros2_workspace2/build/explorer_wanderer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rithwik/ros2_workspace2/install/explorer_wanderer', 'merge_install': False, 'path': '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_wanderer', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'rover' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'rover' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rithwik/ros2_workspace2/build/rover', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rithwik/ros2_workspace2/install/rover', 'merge_install': False, 'path': '/home/rithwik/ros2_workspace2/src/rover', 'symlink_install': False, 'test_result_base': None}
+[0.408s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.409s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.409s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_bringup' with build type 'ament_python'
+[0.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_bringup', 'ament_prefix_path')
+[0.411s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.411s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup/hook/ament_prefix_path.ps1'
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup/hook/ament_prefix_path.dsv'
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup/hook/ament_prefix_path.sh'
+[0.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.412s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.414s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_cartographer' with build type 'ament_cmake'
+[0.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_cartographer'
+[0.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.416s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_gazebo' with build type 'ament_cmake'
+[0.416s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_gazebo'
+[0.416s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.416s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.418s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_interfaces' with build type 'ament_cmake'
+[0.418s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_interfaces'
+[0.418s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.418s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_map_utils' with build type 'ament_python'
+[0.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_map_utils', 'ament_prefix_path')
+[0.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils/hook/ament_prefix_path.ps1'
+[0.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils/hook/ament_prefix_path.dsv'
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils/hook/ament_prefix_path.sh'
+[0.420s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_wanderer' with build type 'ament_python'
+[0.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_wanderer', 'ament_prefix_path')
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer/hook/ament_prefix_path.ps1'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer/hook/ament_prefix_path.dsv'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer/hook/ament_prefix_path.sh'
+[0.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.423s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rithwik/ros2_workspace2/src/rover' with build type 'ament_python'
+[0.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover', 'ament_prefix_path')
+[0.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/ament_prefix_path.ps1'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/ament_prefix_path.dsv'
+[0.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/ament_prefix_path.sh'
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.563s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_bringup'
+[0.563s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.563s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_cartographer -DCMAKE_INSTALL_PREFIX=/home/rithwik/ros2_workspace2/install/explorer_cartographer
+[0.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_gazebo -DCMAKE_INSTALL_PREFIX=/home/rithwik/ros2_workspace2/install/explorer_gazebo
+[0.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_interfaces -DCMAKE_INSTALL_PREFIX=/home/rithwik/ros2_workspace2/install/explorer_interfaces
+[0.720s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_map_utils'
+[0.720s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.891s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_wanderer'
+[0.892s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.892s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.044s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rithwik/ros2_workspace2/src/rover'
+[1.044s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.044s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_cartographer -DCMAKE_INSTALL_PREFIX=/home/rithwik/ros2_workspace2/install/explorer_cartographer
+[1.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rithwik/ros2_workspace2/build/explorer_cartographer -- -j32 -l32
+[1.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rithwik/ros2_workspace2/build/explorer_cartographer -- -j32 -l32
+[1.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rithwik/ros2_workspace2/build/explorer_cartographer
+[1.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_gazebo -DCMAKE_INSTALL_PREFIX=/home/rithwik/ros2_workspace2/install/explorer_gazebo
+[1.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rithwik/ros2_workspace2/build/explorer_gazebo -- -j32 -l32
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_cartographer)
+[1.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rithwik/ros2_workspace2/build/explorer_cartographer
+[1.157s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer' for CMake module files
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer' for CMake config files
+[1.158s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_cartographer', 'cmake_prefix_path')
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.ps1'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.dsv'
+[1.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.sh'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer/bin'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer/lib/pkgconfig/explorer_cartographer.pc'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer/lib/python3.10/site-packages'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer/bin'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.dsv'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.sh'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.bash'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.zsh'
+[1.164s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/colcon-core/packages/explorer_cartographer)
+[1.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_cartographer)
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer' for CMake module files
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer' for CMake config files
+[1.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_cartographer', 'cmake_prefix_path')
+[1.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.ps1'
+[1.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/hook/cmake_prefix_path.sh'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer/bin'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer/lib/pkgconfig/explorer_cartographer.pc'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer/lib/python3.10/site-packages'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_cartographer/bin'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.ps1'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.dsv'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.sh'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.bash'
+[1.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/explorer_cartographer/package.zsh'
+[1.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/explorer_cartographer/share/colcon-core/packages/explorer_cartographer)
+[1.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rithwik/ros2_workspace2/build/explorer_gazebo -- -j32 -l32
+[1.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rithwik/ros2_workspace2/build/explorer_gazebo
+[1.191s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_gazebo)
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo' for CMake module files
+[1.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rithwik/ros2_workspace2/build/explorer_gazebo
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo' for CMake config files
+[1.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_gazebo', 'cmake_prefix_path')
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.ps1'
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.dsv'
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.sh'
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo/bin'
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo/lib/pkgconfig/explorer_gazebo.pc'
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo/lib/python3.10/site-packages'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo/bin'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/package.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/package.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/package.sh'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/package.bash'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/package.zsh'
+[1.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/colcon-core/packages/explorer_gazebo)
+[1.197s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_gazebo)
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo' for CMake module files
+[1.198s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo' for CMake config files
+[1.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_gazebo', 'cmake_prefix_path')
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.ps1'
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.dsv'
+[1.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/hook/cmake_prefix_path.sh'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo/bin'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo/lib/pkgconfig/explorer_gazebo.pc'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo/lib/python3.10/site-packages'
+[1.200s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_gazebo/bin'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/package.ps1'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/package.dsv'
+[1.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/package.sh'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/package.bash'
+[1.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/explorer_gazebo/package.zsh'
+[1.202s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/explorer_gazebo/share/colcon-core/packages/explorer_gazebo)
+[1.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_wanderer': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/rithwik/ros2_workspace2/build/explorer_wanderer/build install --record /home/rithwik/ros2_workspace2/build/explorer_wanderer/install.log --single-version-externally-managed install_data
+[1.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_bringup': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_bringup build --build-base /home/rithwik/ros2_workspace2/build/explorer_bringup/build install --record /home/rithwik/ros2_workspace2/build/explorer_bringup/install.log --single-version-externally-managed install_data
+[1.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_map_utils': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_map_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_map_utils build --build-base /home/rithwik/ros2_workspace2/build/explorer_map_utils/build install --record /home/rithwik/ros2_workspace2/build/explorer_map_utils/install.log --single-version-externally-managed install_data
+[1.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/src/rover': PYTHONPATH=/home/rithwik/ros2_workspace2/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/rithwik/ros2_workspace2/build/rover/build install --record /home/rithwik/ros2_workspace2/build/rover/install.log --single-version-externally-managed install_data
+[1.459s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_map_utils' for CMake module files
+[1.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_map_utils' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_map_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_map_utils build --build-base /home/rithwik/ros2_workspace2/build/explorer_map_utils/build install --record /home/rithwik/ros2_workspace2/build/explorer_map_utils/install.log --single-version-externally-managed install_data
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_map_utils' for CMake config files
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_map_utils/lib'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_map_utils/bin'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/pkgconfig/explorer_map_utils.pc'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_map_utils/lib/python3.10/site-packages'
+[1.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_map_utils', 'pythonpath')
+[1.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils/hook/pythonpath.ps1'
+[1.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils/hook/pythonpath.dsv'
+[1.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils/hook/pythonpath.sh'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_map_utils/bin'
+[1.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_map_utils)
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils/package.ps1'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils/package.dsv'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils/package.sh'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils/package.bash'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/explorer_map_utils/package.zsh'
+[1.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/explorer_map_utils/share/colcon-core/packages/explorer_map_utils)
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_wanderer' for CMake module files
+[1.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_wanderer' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/rithwik/ros2_workspace2/build/explorer_wanderer/build install --record /home/rithwik/ros2_workspace2/build/explorer_wanderer/install.log --single-version-externally-managed install_data
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_wanderer' for CMake config files
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_wanderer/lib'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_wanderer/bin'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/pkgconfig/explorer_wanderer.pc'
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages'
+[1.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_wanderer', 'pythonpath')
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer/hook/pythonpath.ps1'
+[1.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer/hook/pythonpath.dsv'
+[1.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer/hook/pythonpath.sh'
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_wanderer/bin'
+[1.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_wanderer)
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer/package.ps1'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer/package.dsv'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer/package.sh'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer/package.bash'
+[1.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer/package.zsh'
+[1.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/explorer_wanderer/share/colcon-core/packages/explorer_wanderer)
+[1.472s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_bringup' for CMake module files
+[1.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_bringup' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_bringup build --build-base /home/rithwik/ros2_workspace2/build/explorer_bringup/build install --record /home/rithwik/ros2_workspace2/build/explorer_bringup/install.log --single-version-externally-managed install_data
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_bringup' for CMake config files
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_bringup/lib'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_bringup/bin'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_bringup/lib/pkgconfig/explorer_bringup.pc'
+[1.474s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_bringup/lib/python3.10/site-packages'
+[1.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_bringup', 'pythonpath')
+[1.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup/hook/pythonpath.ps1'
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup/hook/pythonpath.dsv'
+[1.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup/hook/pythonpath.sh'
+[1.476s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_bringup/bin'
+[1.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_bringup)
+[1.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup/package.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup/package.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup/package.sh'
+[1.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup/package.bash'
+[1.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_bringup/share/explorer_bringup/package.zsh'
+[1.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/explorer_bringup/share/colcon-core/packages/explorer_bringup)
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover' for CMake module files
+[1.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/src/rover' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/rithwik/ros2_workspace2/build/rover/build install --record /home/rithwik/ros2_workspace2/build/rover/install.log --single-version-externally-managed install_data
+[1.483s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover' for CMake config files
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/lib'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/bin'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/lib/pkgconfig/rover.pc'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/lib/python3.10/site-packages'
+[1.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover', 'pythonpath')
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/pythonpath.ps1'
+[1.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/pythonpath.dsv'
+[1.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/rover/share/rover/hook/pythonpath.sh'
+[1.488s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/rover/bin'
+[1.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover)
+[1.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.ps1'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.dsv'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.sh'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.bash'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/rover/share/rover/package.zsh'
+[1.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/rover/share/colcon-core/packages/rover)
+[2.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_interfaces -DCMAKE_INSTALL_PREFIX=/home/rithwik/ros2_workspace2/install/explorer_interfaces
+[2.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rithwik/ros2_workspace2/build/explorer_interfaces -- -j32 -l32
+[4.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rithwik/ros2_workspace2/build/explorer_interfaces -- -j32 -l32
+[4.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rithwik/ros2_workspace2/build/explorer_interfaces
+[4.244s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_interfaces)
+[4.245s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces' for CMake module files
+[4.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rithwik/ros2_workspace2/build/explorer_interfaces
+[4.245s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces' for CMake config files
+[4.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_interfaces', 'cmake_prefix_path')
+[4.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.ps1'
+[4.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.dsv'
+[4.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.sh'
+[4.246s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib'
+[4.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_interfaces', 'ld_library_path_lib')
+[4.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.ps1'
+[4.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.dsv'
+[4.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.sh'
+[4.246s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces/bin'
+[4.246s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/pkgconfig/explorer_interfaces.pc'
+[4.246s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/python3.10/site-packages'
+[4.247s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces/bin'
+[4.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.ps1'
+[4.247s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.dsv'
+[4.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.sh'
+[4.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.bash'
+[4.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.zsh'
+[4.247s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/colcon-core/packages/explorer_interfaces)
+[4.248s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explorer_interfaces)
+[4.248s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces' for CMake module files
+[4.248s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces' for CMake config files
+[4.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_interfaces', 'cmake_prefix_path')
+[4.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.ps1'
+[4.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.dsv'
+[4.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/cmake_prefix_path.sh'
+[4.249s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib'
+[4.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('explorer_interfaces', 'ld_library_path_lib')
+[4.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.ps1'
+[4.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.dsv'
+[4.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/hook/ld_library_path_lib.sh'
+[4.249s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces/bin'
+[4.249s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/pkgconfig/explorer_interfaces.pc'
+[4.249s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/python3.10/site-packages'
+[4.249s] Level 1:colcon.colcon_core.environment:checking '/home/rithwik/ros2_workspace2/install/explorer_interfaces/bin'
+[4.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.ps1'
+[4.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.dsv'
+[4.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.sh'
+[4.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.bash'
+[4.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.zsh'
+[4.250s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rithwik/ros2_workspace2/install/explorer_interfaces/share/colcon-core/packages/explorer_interfaces)
+[4.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.251s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.255s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.269s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.270s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.ps1'
+[4.270s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rithwik/ros2_workspace2/install/_local_setup_util_ps1.py'
+[4.271s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.ps1'
+[4.271s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.sh'
+[4.272s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rithwik/ros2_workspace2/install/_local_setup_util_sh.py'
+[4.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.sh'
+[4.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.bash'
+[4.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.bash'
+[4.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rithwik/ros2_workspace2/install/local_setup.zsh'
+[4.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rithwik/ros2_workspace2/install/setup.zsh'

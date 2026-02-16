@@ -1,0 +1,264 @@
+[0.160s] Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_interfaces -DCMAKE_INSTALL_PREFIX=/home/rithwik/ros2_workspace2/install/explorer_interfaces
+[0.479s] -- The C compiler identification is GNU 11.4.0
+[0.479s] -- The CXX compiler identification is GNU 11.4.0
+[0.479s] -- Detecting C compiler ABI info
+[0.479s] -- Detecting C compiler ABI info - done
+[0.479s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.479s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.479s] -- Detecting CXX compiler ABI info
+[0.480s] -- Detecting CXX compiler ABI info - done
+[0.480s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.480s] -- Detecting CXX compile features
+[0.480s] -- Detecting CXX compile features - done
+[0.480s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.579s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.639s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.701s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.712s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.759s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.790s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.830s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.029s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.503s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.504s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.523s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.523s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.523s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.523s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.533s] -- Found PythonExtra: .so  
+[1.557s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.558s] -- Added test 'lint_cmake' to check CMake code style
+[1.558s] -- Added test 'xmllint' to check XML markup files
+[1.561s] -- Configuring done
+[1.575s] -- Generating done
+[1.581s] -- Build files have been written to: /home/rithwik/ros2_workspace2/build/explorer_interfaces
+[1.590s] Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_interfaces -DCMAKE_INSTALL_PREFIX=/home/rithwik/ros2_workspace2/install/explorer_interfaces
+[1.592s] Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rithwik/ros2_workspace2/build/explorer_interfaces -- -j32 -l32
+[1.647s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.664s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.677s] [  5%] Built target ament_cmake_python_copy_explorer_interfaces
+[1.816s] running egg_info
+[1.816s] creating explorer_interfaces.egg-info
+[1.816s] writing explorer_interfaces.egg-info/PKG-INFO
+[1.816s] writing dependency_links to explorer_interfaces.egg-info/dependency_links.txt
+[1.817s] writing top-level names to explorer_interfaces.egg-info/top_level.txt
+[1.817s] writing manifest file 'explorer_interfaces.egg-info/SOURCES.txt'
+[1.818s] reading manifest file 'explorer_interfaces.egg-info/SOURCES.txt'
+[1.818s] writing manifest file 'explorer_interfaces.egg-info/SOURCES.txt'
+[1.833s] [  5%] Built target ament_cmake_python_build_explorer_interfaces_egg
+[2.019s] [  7%] [32mBuilding C object CMakeFiles/explorer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/explorer_interfaces/action/detail/wander__functions.c.o[0m
+[2.021s] [ 10%] [32mBuilding C object CMakeFiles/explorer_interfaces__rosidl_generator_c.dir/rosidl_generator_c/explorer_interfaces/action/detail/discover__functions.c.o[0m
+[2.023s] [ 10%] Built target explorer_interfaces__cpp
+[2.034s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.034s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.035s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.154s] [ 20%] [32m[1mLinking C shared library libexplorer_interfaces__rosidl_generator_c.so[0m
+[2.182s] [ 20%] Built target explorer_interfaces__rosidl_generator_c
+[2.189s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.189s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.190s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.308s] [ 30%] [32mBuilding CXX object CMakeFiles/explorer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/explorer_interfaces/action/wander__type_support.cpp.o[0m
+[2.308s] [ 33%] [32mBuilding CXX object CMakeFiles/explorer_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/explorer_interfaces/action/discover__type_support.cpp.o[0m
+[2.356s] [ 35%] [32mBuilding CXX object CMakeFiles/explorer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/explorer_interfaces/action/detail/wander__type_support.cpp.o[0m
+[2.358s] [ 38%] [32mBuilding CXX object CMakeFiles/explorer_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/explorer_interfaces/action/detail/discover__type_support.cpp.o[0m
+[2.426s] [ 41%] [32mBuilding CXX object CMakeFiles/explorer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/explorer_interfaces/action/detail/dds_fastrtps/wander__type_support.cpp.o[0m
+[2.426s] [ 43%] [32mBuilding CXX object CMakeFiles/explorer_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/explorer_interfaces/action/detail/dds_fastrtps/discover__type_support.cpp.o[0m
+[2.465s] [ 48%] [32mBuilding CXX object CMakeFiles/explorer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/explorer_interfaces/action/wander__type_support.cpp.o[0m
+[2.465s] [ 48%] [32mBuilding CXX object CMakeFiles/explorer_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/explorer_interfaces/action/discover__type_support.cpp.o[0m
+[2.505s] [ 51%] [32m[1mLinking CXX shared library libexplorer_interfaces__rosidl_typesupport_c.so[0m
+[2.532s] [ 56%] [32mBuilding C object CMakeFiles/explorer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/explorer_interfaces/action/detail/discover__type_support.c.o[0m
+[2.532s] [ 56%] [32mBuilding C object CMakeFiles/explorer_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/explorer_interfaces/action/detail/wander__type_support.c.o[0m
+[2.542s] [ 56%] Built target explorer_interfaces__rosidl_typesupport_c
+[2.566s] [ 58%] [32mBuilding CXX object CMakeFiles/explorer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/explorer_interfaces/action/detail/wander__type_support_c.cpp.o[0m
+[2.566s] [ 61%] [32mBuilding CXX object CMakeFiles/explorer_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/explorer_interfaces/action/detail/discover__type_support_c.cpp.o[0m
+[2.567s] [ 64%] [32m[1mLinking C shared library libexplorer_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.590s] [ 64%] Built target explorer_interfaces__rosidl_typesupport_introspection_c
+[2.613s] [ 66%] [32m[1mLinking CXX shared library libexplorer_interfaces__rosidl_typesupport_cpp.so[0m
+[2.651s] [ 66%] Built target explorer_interfaces__rosidl_typesupport_cpp
+[2.756s] [ 69%] [32m[1mLinking CXX shared library libexplorer_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.779s] [ 71%] [32m[1mLinking CXX shared library libexplorer_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.803s] [ 71%] Built target explorer_interfaces__rosidl_typesupport_introspection_cpp
+[2.803s] [ 74%] [32m[1mLinking CXX shared library libexplorer_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.851s] [ 74%] Built target explorer_interfaces__rosidl_typesupport_fastrtps_c
+[2.900s] [ 74%] Built target explorer_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.916s] [ 74%] Built target explorer_interfaces
+[2.929s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.481s] [ 76%] Built target explorer_interfaces__py
+[3.494s] [ 79%] [32mBuilding C object CMakeFiles/explorer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/explorer_interfaces/action/_wander_s.c.o[0m
+[3.494s] [ 82%] [32mBuilding C object CMakeFiles/explorer_interfaces__rosidl_generator_py.dir/rosidl_generator_py/explorer_interfaces/action/_discover_s.c.o[0m
+[3.640s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/explorer_interfaces/libexplorer_interfaces__rosidl_generator_py.so[0m
+[3.669s] [ 84%] Built target explorer_interfaces__rosidl_generator_py
+[3.682s] [ 87%] [32mBuilding C object CMakeFiles/explorer_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/explorer_interfaces/_explorer_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.682s] [ 89%] [32mBuilding C object CMakeFiles/explorer_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/explorer_interfaces/_explorer_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.683s] [ 92%] [32mBuilding C object CMakeFiles/explorer_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/explorer_interfaces/_explorer_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.748s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.751s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.752s] [100%] [32m[1mLinking C shared library rosidl_generator_py/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.772s] [100%] Built target explorer_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.774s] [100%] Built target explorer_interfaces__rosidl_typesupport_c__pyext
+[3.775s] [100%] Built target explorer_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.782s] Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/rithwik/ros2_workspace2/build/explorer_interfaces -- -j32 -l32
+[3.784s] Invoking command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rithwik/ros2_workspace2/build/explorer_interfaces
+[3.789s] -- Install configuration: ""
+[3.789s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/ament_index/resource_index/rosidl_interfaces/explorer_interfaces
+[3.789s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[3.789s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/wander.h
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__functions.h
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__type_support.h
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__functions.c
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__type_support.h
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__struct.h
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__struct.h
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__functions.h
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__functions.c
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/discover.h
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg
+[3.790s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.791s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/environment/library_path.sh
+[3.791s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/environment/library_path.dsv
+[3.791s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_generator_c.so
+[3.791s] -- Set runtime path of "/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_generator_c.so" to ""
+[3.791s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[3.791s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[3.791s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[3.791s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__rosidl_typesupport_fastrtps_c.h
+[3.791s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__rosidl_typesupport_fastrtps_c.h
+[3.791s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg
+[3.791s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.791s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.791s] -- Set runtime path of "/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.792s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[3.792s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[3.792s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[3.792s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__rosidl_typesupport_introspection_c.h
+[3.792s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__type_support.c
+[3.792s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__type_support.c
+[3.792s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__rosidl_typesupport_introspection_c.h
+[3.792s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg
+[3.792s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.792s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_introspection_c.so
+[3.792s] -- Set runtime path of "/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.792s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_c.so
+[3.793s] -- Set runtime path of "/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_c.so" to ""
+[3.793s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[3.793s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[3.793s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[3.793s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__struct.hpp
+[3.793s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__type_support.hpp
+[3.793s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__type_support.hpp
+[3.793s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__builder.hpp
+[3.793s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__builder.hpp
+[3.793s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__struct.hpp
+[3.793s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__traits.hpp
+[3.793s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__traits.hpp
+[3.793s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/wander.hpp
+[3.793s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/discover.hpp
+[3.793s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg
+[3.794s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.794s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[3.794s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[3.794s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[3.794s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__rosidl_typesupport_fastrtps_cpp.hpp
+[3.794s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__rosidl_typesupport_fastrtps_cpp.hpp
+[3.794s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/dds_fastrtps
+[3.794s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg
+[3.794s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.794s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.794s] -- Set runtime path of "/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.794s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces
+[3.794s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action
+[3.794s] -- Up-to-date: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail
+[3.795s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__type_support.cpp
+[3.795s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__type_support.cpp
+[3.795s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/wander__rosidl_typesupport_introspection_cpp.hpp
+[3.795s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/include/explorer_interfaces/explorer_interfaces/action/detail/discover__rosidl_typesupport_introspection_cpp.hpp
+[3.795s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.795s] -- Set runtime path of "/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.795s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_cpp.so
+[3.795s] -- Set runtime path of "/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.795s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/environment/pythonpath.sh
+[3.795s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/environment/pythonpath.dsv
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces-0.0.0-py3.10.egg-info
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/_wander.py
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/_discover_s.c
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/_discover.py
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/__init__.py
+[3.796s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/_wander_s.c
+[3.797s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/_explorer_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.797s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.797s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.797s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/__init__.py
+[3.797s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/libexplorer_interfaces__rosidl_generator_py.so
+[3.797s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/_explorer_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.797s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/_explorer_interfaces_s.ep.rosidl_typesupport_c.c
+[3.797s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.821s] Listing '/home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces'...
+[3.821s] Compiling '/home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/__init__.py'...
+[3.821s] Listing '/home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action'...
+[3.821s] Compiling '/home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/__init__.py'...
+[3.821s] Compiling '/home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/_discover.py'...
+[3.821s] Compiling '/home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/action/_wander.py'...
+[3.823s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.823s] -- Set runtime path of "/home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.823s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.823s] -- Set runtime path of "/home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.823s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.823s] -- Set runtime path of "/home/rithwik/ros2_workspace2/install/explorer_interfaces/local/lib/python3.10/dist-packages/explorer_interfaces/explorer_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.823s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_generator_py.so
+[3.823s] -- Set runtime path of "/home/rithwik/ros2_workspace2/install/explorer_interfaces/lib/libexplorer_interfaces__rosidl_generator_py.so" to ""
+[3.823s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/action/Wander.idl
+[3.823s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/action/Discover.idl
+[3.823s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/action/Wander.action
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/action/Discover.action
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/ament_index/resource_index/package_run_dependencies/explorer_interfaces
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/ament_index/resource_index/parent_prefix_path/explorer_interfaces
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/environment/ament_prefix_path.sh
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/environment/ament_prefix_path.dsv
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/environment/path.sh
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/environment/path.dsv
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/local_setup.bash
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/local_setup.sh
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/local_setup.zsh
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/local_setup.dsv
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.dsv
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/ament_index/resource_index/packages/explorer_interfaces
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_generator_cExport.cmake
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.824s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_cExport.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_generator_cppExport.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_cppExport.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_generator_pyExport.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/export_explorer_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.825s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfacesConfig.cmake
+[3.826s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/cmake/explorer_interfacesConfig-version.cmake
+[3.826s] -- Installing: /home/rithwik/ros2_workspace2/install/explorer_interfaces/share/explorer_interfaces/package.xml
+[3.827s] Invoked command in '/home/rithwik/ros2_workspace2/build/explorer_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/rithwik/ros2_workspace2/build/explorer_interfaces

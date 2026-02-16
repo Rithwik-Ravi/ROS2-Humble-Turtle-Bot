@@ -1,1 +1,0 @@
-/home/rithwik/ros2_workspace2/src/rover/launch/2_gazebo.launch.py

@@ -1,19 +1,30 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan
-from geometry_msgs.msg import Twist
+from geometry_msgs.msg import Twist, PoseStamped
+from nav_msgs.msg import Odometry, Path
 import math
 
 class ObstacleAvoidingBot(Node):
     def __init__(self):
         super().__init__('Go_to_position_node') ## name of the node
-        # publisher
+        
+        # --- Publishers & Subscribers ---
         self.publisher = self.create_publisher(Twist, '/cmd_vel', 40)
-        #subscriber
-        self.subscription=self.create_subscription(LaserScan,'/scan',self.get_scan_values,40)
-        #periodic publisher call
+        self.subscription = self.create_subscription(LaserScan, '/scan', self.get_scan_values, 40)
+        
+        # NEW: Path Visualization setup
+        self.path_publisher = self.create_publisher(Path, '/robot_path', 10)
+        self.odom_subscription = self.create_subscription(Odometry, '/odom', self.odom_callback, 10)
+        
+        # Initialize Path message
+        self.path = Path()
+        self.path.header.frame_id = 'odom' # This must match the fixed frame in RViz
+
+        # --- Periodic Timer ---
         timer_period = 0.1
         self.timer = self.create_timer(timer_period, self.send_cmd_vel)
+        
         ## Initializing Global values
         ## given a value for VELOCITY
         self.linear_vel = 0.22  # INCREASED SPEED 
@@ -31,6 +42,18 @@ class ObstacleAvoidingBot(Node):
         self.evade_timer = 0
         self.evade_dir = 0.0
 
+    # NEW: Callback to track robot position for RViz path
+    def odom_callback(self, msg):
+        pose = PoseStamped()
+        pose.header = msg.header
+        pose.pose = msg.pose.pose
+        
+        # Append current pose to the path
+        self.path.poses.append(pose)
+        self.path.header.stamp = self.get_clock().now().to_msg()
+        
+        # Publish the updated path
+        self.path_publisher.publish(self.path)
 
     ## Subscriber Callback function 
     def get_scan_values(self,scan_data):

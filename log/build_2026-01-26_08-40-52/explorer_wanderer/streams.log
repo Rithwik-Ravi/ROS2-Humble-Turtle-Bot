@@ -1,0 +1,45 @@
+[0.876s] Invoking command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_wanderer': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/rithwik/ros2_workspace2/build/explorer_wanderer/build install --record /home/rithwik/ros2_workspace2/build/explorer_wanderer/install.log --single-version-externally-managed install_data
+[1.004s] running egg_info
+[1.004s] creating ../../../build/explorer_wanderer/explorer_wanderer.egg-info
+[1.004s] writing ../../../build/explorer_wanderer/explorer_wanderer.egg-info/PKG-INFO
+[1.004s] writing dependency_links to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/dependency_links.txt
+[1.004s] writing entry points to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/entry_points.txt
+[1.004s] writing requirements to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/requires.txt
+[1.005s] writing top-level names to ../../../build/explorer_wanderer/explorer_wanderer.egg-info/top_level.txt
+[1.005s] writing manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[1.006s] reading manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[1.006s] writing manifest file '../../../build/explorer_wanderer/explorer_wanderer.egg-info/SOURCES.txt'
+[1.006s] running build
+[1.006s] running build_py
+[1.006s] creating /home/rithwik/ros2_workspace2/build/explorer_wanderer/build
+[1.006s] creating /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib
+[1.006s] creating /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer
+[1.007s] copying explorer_wanderer/__init__.py -> /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer
+[1.007s] copying explorer_wanderer/wanderer.py -> /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer
+[1.007s] copying explorer_wanderer/wanderer_server.py -> /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer
+[1.007s] copying explorer_wanderer/discoverer_server.py -> /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer
+[1.007s] running install
+[1.007s] running install_lib
+[1.008s] creating /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[1.008s] copying /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer/__init__.py -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[1.008s] copying /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer/wanderer.py -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[1.008s] copying /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer/wanderer_server.py -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[1.008s] copying /home/rithwik/ros2_workspace2/build/explorer_wanderer/build/lib/explorer_wanderer/discoverer_server.py -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer
+[1.008s] byte-compiling /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/__init__.py to __init__.cpython-310.pyc
+[1.008s] byte-compiling /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/wanderer.py to wanderer.cpython-310.pyc
+[1.009s] byte-compiling /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/wanderer_server.py to wanderer_server.cpython-310.pyc
+[1.010s] byte-compiling /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer/discoverer_server.py to discoverer_server.cpython-310.pyc
+[1.011s] running install_data
+[1.011s] creating /home/rithwik/ros2_workspace2/install/explorer_wanderer/share/ament_index
+[1.011s] creating /home/rithwik/ros2_workspace2/install/explorer_wanderer/share/ament_index/resource_index
+[1.011s] creating /home/rithwik/ros2_workspace2/install/explorer_wanderer/share/ament_index/resource_index/packages
+[1.011s] copying resource/explorer_wanderer -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/share/ament_index/resource_index/packages
+[1.011s] copying package.xml -> /home/rithwik/ros2_workspace2/install/explorer_wanderer/share/explorer_wanderer
+[1.011s] running install_egg_info
+[1.012s] Copying ../../../build/explorer_wanderer/explorer_wanderer.egg-info to /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages/explorer_wanderer-0.0.0-py3.10.egg-info
+[1.012s] running install_scripts
+[1.024s] Installing discoverer_server script to /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/explorer_wanderer
+[1.024s] Installing wanderer script to /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/explorer_wanderer
+[1.024s] Installing wanderer_server script to /home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/explorer_wanderer
+[1.024s] writing list of installed files to '/home/rithwik/ros2_workspace2/build/explorer_wanderer/install.log'
+[1.046s] Invoked command in '/home/rithwik/ros2_workspace2/src/ros2_explorer/explorer_wanderer' returned '0': PYTHONPATH=/home/rithwik/ros2_workspace2/build/explorer_wanderer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rithwik/ros2_workspace2/install/explorer_wanderer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/explorer_wanderer build --build-base /home/rithwik/ros2_workspace2/build/explorer_wanderer/build install --record /home/rithwik/ros2_workspace2/build/explorer_wanderer/install.log --single-version-externally-managed install_data

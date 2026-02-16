@@ -40,6 +40,7 @@ setup(
         'console_scripts': [
             'avoid_obstacle = rover.obstacle_avoiding:main',
             'gap_follower = rover.gap_follower:main',
+            'imu_bridge = rover.imu_bridge:main',
         ],
     },
 )

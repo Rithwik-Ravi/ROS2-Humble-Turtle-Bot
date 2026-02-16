@@ -13,12 +13,14 @@ config/nav2_params.yaml
 launch/1_rviz.launch.py
 launch/2D_mapping.launch.py
 launch/2_gazebo.launch.py
+launch/imu_system.launch.py
 launch/slam.launch.py
 maps/my_maze_map.pgm
 maps/my_maze_map.yaml
 resource/rover
 rover/__init__.py
 rover/gap_follower.py
+rover/imu_bridge.py
 rover/obstacle_avoiding.py
 test/test_copyright.py
 test/test_flake8.py
